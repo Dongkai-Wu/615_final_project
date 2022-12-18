@@ -7,10 +7,15 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(tidyr)
+library(fmsb)
+library(tidyverse)
+library(ggplot2)
 ```
 
 
-```{r}
+```{r include=FALSE}
 
 levels <- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/levels.txt", ",", header = TRUE)
 multi_road_trips<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/multi_route_trips.txt", ",", header = TRUE)
@@ -30,22 +35,15 @@ Travel_Times_Fall_2019 <- read_csv("Average_Rapid_Transit_Travel_Times_Fall_2019
 
 
 
-```{r}
-library(dplyr)
-library(tidyr)
-library(fmsb)
+```{r echo=FALSE, message=FALSE, warning=FALSE,fig.height=3,fig.width=4.5, fig.cap= "Number of routes for each line"}
 new <- route_pattern %>% group_by(route_id) %>% summarise(total_count = n())
 
 new2 <- filter(new, route_id %in% c("Red", "Orange", "Green-B", "Green-C", "Green-D", "Green-E"))
-
-
 
 wider2 <- new2 %>%
   pivot_wider(names_from = route_id, values_from = total_count)
 
 wider2 <- rbind(rep(20,5) , rep(0,5) , wider2)
-
-radarchart(wider2)
 
 colors_border=c( rgb(0.2,0.5,0.5,0.9), rgb(0.8,0.2,0.5,0.9) , rgb(0.7,0.5,0.1,0.9) )
 colors_in=c( rgb(0.2,0.5,0.5,0.4), rgb(0.8,0.2,0.5,0.4) , rgb(0.7,0.5,0.1,0.4) )
@@ -66,11 +64,8 @@ This plot shows the number of routes for each line. We can find the red line has
 
 
 # Top 10 lines with most number of trips
-```{r}
-# Libraries
-library(tidyverse)
-library(ggplot2)
- 
+```{r echo=FALSE, message=FALSE, warning=FALSE,fig.height=3,fig.width=4.5, fig.cap= "Top 10 lines with the most number of trips"}
+
 # Create dataset
 trip_count <- trips %>% group_by(route_id) %>% summarise(total_count = n())
 df<-trip_count[order(-trip_count$total_count),]
@@ -128,7 +123,7 @@ This figure shows the top 10 lines with the most number of trips, and red line a
 
 
 
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE,fig.height=3,fig.width=4.5, fig.cap= "Routes Travel Time VS. Day Type"}
 library(ggplot2)
 
 ggplot(Travel_Times_Fall_2019) +
