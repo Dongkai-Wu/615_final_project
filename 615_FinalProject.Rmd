@@ -1,0 +1,145 @@
+---
+title: "615_FinalProject"
+author: "Kai"
+date: "2022-12-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+levels <- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/levels.txt", ",", header = TRUE)
+multi_road_trips<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/multi_route_trips.txt", ",", header = TRUE)
+pathways<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/pathways.txt", ",", header = TRUE)
+route_pattern<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/route_patterns.txt", ",", header = TRUE)
+routes<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/routes.txt", ",", header = TRUE)
+stop_times<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/stop_times.txt", ",", header = TRUE)
+stops<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/stops.txt", ",", header = TRUE)
+transfers<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/transfers.txt", ",", header = TRUE)
+trips_properties<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/trips_properties_definitions.txt", ",", header = TRUE)
+trips<- read.delim("/Users/dongkaiwu/Desktop/615/615_Final/MBTA_GTFS/trips.txt", ",", header = TRUE)
+
+library(readr)
+Travel_Times_Fall_2019 <- read_csv("Average_Rapid_Transit_Travel_Times_Fall_2019.csv")
+
+```
+
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(fmsb)
+new <- route_pattern %>% group_by(route_id) %>% summarise(total_count = n())
+
+new2 <- filter(new, route_id %in% c("Red", "Orange", "Green-B", "Green-C", "Green-D", "Green-E"))
+
+
+
+wider2 <- new2 %>%
+  pivot_wider(names_from = route_id, values_from = total_count)
+
+wider2 <- rbind(rep(20,5) , rep(0,5) , wider2)
+
+radarchart(wider2)
+
+colors_border=c( rgb(0.2,0.5,0.5,0.9), rgb(0.8,0.2,0.5,0.9) , rgb(0.7,0.5,0.1,0.9) )
+colors_in=c( rgb(0.2,0.5,0.5,0.4), rgb(0.8,0.2,0.5,0.4) , rgb(0.7,0.5,0.1,0.4) )
+
+radarchart( wider2  , axistype=1 , 
+    #custom polygon
+    pcol=colors_border , pfcol=colors_in , plwd=4 , plty=1,
+    #custom the grid
+    cglcol="grey", cglty=1, axislabcol="grey", caxislabels=seq(0,20,5), cglwd=0.8,
+    #custom labels
+    vlcex=0.8,title=paste("Number of Routes for each line"),)
+
+```
+This plot shows the number of routes for each line. We can find the red line has the most routes. 
+
+
+
+
+
+# Top 10 lines with most number of trips
+```{r}
+# Libraries
+library(tidyverse)
+library(ggplot2)
+ 
+# Create dataset
+trip_count <- trips %>% group_by(route_id) %>% summarise(total_count = n())
+df<-trip_count[order(-trip_count$total_count),]
+trip_count <- df[1:10,]
+id = seq(1,nrow(trip_count))
+total_trips <- cbind(id,trip_count)
+
+ 
+# ----- This section prepare a dataframe for labels ---- #
+# Get the name and the y position of each label
+label_data <-  total_trips
+ 
+# calculate the ANGLE of the labels
+number_of_bar <- nrow(label_data)
+angle <-  90 - 360 * (label_data$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+ 
+# calculate the alignment of labels: right or left
+# If I am on the left part of the plot, my labels have currently an angle < -90
+label_data$hjust<-ifelse( angle < -90, 1, 0)
+ 
+# flip angle BY to make them readable
+label_data$angle<-ifelse(angle < -90, angle+180, angle)
+# ----- ------------------------------------------- ---- #
+ 
+ 
+# Start the plot
+p <- ggplot(total_trips, aes(x=as.factor(id), y=total_count)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
+  
+  # This add the bars with a blue color
+  geom_bar(stat="identity", fill=alpha("orange", 0.7)) +
+  
+  # Limits of the plot = very important. The negative value controls the size of the inner circle, the positive one is useful to add size over each bar
+  ylim(-100,2600) +
+  
+  # Custom the theme: no axis title and no cartesian grid
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    plot.margin = unit(rep(-1,4), "cm")      # Adjust the margin to make in sort labels are not truncated!
+  ) +
+  
+  # This makes the coordinate polar instead of cartesian.
+  coord_polar(start = 0) +
+  
+  # Add the labels, using the label_data dataframe that we have created before
+  geom_text(data=label_data, aes(x=id, y=total_count+10, label=route_id, hjust=hjust), color="black", fontface="bold",alpha=0.6, size=3.5, angle= label_data$angle, inherit.aes = FALSE) 
+ 
+p
+```
+
+This figure shows the top 10 lines with the most number of trips, and red line again has the most number of trips. 
+
+
+
+
+```{r}
+library(ggplot2)
+
+ggplot(Travel_Times_Fall_2019) +
+ aes(x = route_id, y = average_sec, fill = day_type) +
+ geom_col() +
+ scale_fill_hue(direction = 1) +
+ labs(x = "Route id", y = "Average Travel Time", title = "Routes Travel Time VS. Day Type", fill = "Day Type:") +
+ theme_minimal()
+
+```
+
+From this graph we can clearly see that all the routes travels longer during weekdays compare to weekend. And the comparison shows that the total travel time during day time is the sum of weekend's travel time. 
+
+
