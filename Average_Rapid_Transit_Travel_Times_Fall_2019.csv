@@ -1,0 +1,1131 @@
+﻿route_id,from_stop_id,from_stop_name,to_stop_id,to_stop_name,day_type,peak_ind,average_sec,std_sec,p05_sec,p50_sec,p95_sec,ObjectId
+Orange,70001,Forest Hills,70003,Green Street,saturday,offpeak,84.25,16.94,62,87,100,1
+Orange,70001,Forest Hills,70003,Green Street,sunday,offpeak,92.39,24.21,62,89,141,2
+Orange,70001,Forest Hills,70003,Green Street,weekday,peak,90.83,20.21,64,88,136,3
+Orange,70001,Forest Hills,70003,Green Street,weekday,offpeak,90.48,21.16,64,88,135,4
+Orange,70002,Green Street,70001,Forest Hills,saturday,offpeak,103.51,27.46,78,100,143.8,5
+Orange,70002,Green Street,70001,Forest Hills,weekday,peak,123.09,58.93,82,106,221.3,6
+Orange,70002,Green Street,70001,Forest Hills,sunday,offpeak,105.33,30.5,81,104,136.8,7
+Orange,70002,Green Street,70001,Forest Hills,weekday,offpeak,120.19,65.49,81,104,225,8
+Orange,70003,Green Street,70005,Stony Brook,weekday,peak,87.66,27.03,48,91,114,9
+Orange,70003,Green Street,70005,Stony Brook,weekday,offpeak,83.51,24.06,48,87,105,10
+Orange,70003,Green Street,70005,Stony Brook,saturday,offpeak,77.55,25.63,47,84,100,11
+Orange,70003,Green Street,70005,Stony Brook,sunday,offpeak,82.11,24.86,48,86,101,12
+Orange,70004,Stony Brook,70002,Green Street,sunday,offpeak,49.64,4.15,46,49,55,13
+Orange,70004,Stony Brook,70002,Green Street,weekday,peak,51.81,13.15,46,49,64,14
+Orange,70004,Stony Brook,70002,Green Street,weekday,offpeak,51.95,56.33,46,49,62,15
+Orange,70004,Stony Brook,70002,Green Street,saturday,offpeak,49.34,5.61,46,48,56,16
+Orange,70005,Stony Brook,70007,Jackson Square,sunday,offpeak,77.96,27.73,46.55,71,115,17
+Orange,70005,Stony Brook,70007,Jackson Square,saturday,offpeak,71.6,27.42,46,69,103,18
+Orange,70005,Stony Brook,70007,Jackson Square,weekday,peak,78.02,28.65,46,71,113,19
+Orange,70005,Stony Brook,70007,Jackson Square,weekday,offpeak,77.23,29.68,44,71,106,20
+Orange,70006,Jackson Square,70004,Stony Brook,sunday,offpeak,69.63,19.47,52,62,100.55,21
+Orange,70006,Jackson Square,70004,Stony Brook,weekday,peak,70.92,21.04,52,63,108,22
+Orange,70006,Jackson Square,70004,Stony Brook,weekday,offpeak,68.94,20.26,51,62,101,23
+Orange,70006,Jackson Square,70004,Stony Brook,saturday,offpeak,72.47,28.41,50,62,121.9,24
+Orange,70007,Jackson Square,70009,Roxbury Crossing,weekday,peak,53.4,4.94,50,52,60,25
+Orange,70007,Jackson Square,70009,Roxbury Crossing,sunday,offpeak,53.02,3.94,50,52,59,26
+Orange,70007,Jackson Square,70009,Roxbury Crossing,weekday,offpeak,53.67,7.13,50,52,61,27
+Orange,70007,Jackson Square,70009,Roxbury Crossing,saturday,offpeak,53.15,12.88,50,52,60,28
+Orange,70008,Roxbury Crossing,70006,Jackson Square,saturday,offpeak,57.93,5.41,52,57,65,29
+Orange,70008,Roxbury Crossing,70006,Jackson Square,sunday,offpeak,59.68,9.4,52,58,72.7,30
+Orange,70008,Roxbury Crossing,70006,Jackson Square,weekday,peak,61.03,8.94,53,59,73.3,31
+Orange,70008,Roxbury Crossing,70006,Jackson Square,weekday,offpeak,60.15,9.66,53,58,71,32
+Orange,70009,Roxbury Crossing,70011,Ruggles,saturday,offpeak,47.4,10.58,43,45,54,33
+Orange,70009,Roxbury Crossing,70011,Ruggles,weekday,peak,47.44,13.69,43,45,54,34
+Orange,70009,Roxbury Crossing,70011,Ruggles,weekday,offpeak,47.79,41.86,43,45,55,35
+Orange,70009,Roxbury Crossing,70011,Ruggles,sunday,offpeak,46.37,4.6,43,45,54.5,36
+Orange,70010,Ruggles,70008,Roxbury Crossing,saturday,offpeak,54.43,5.6,46,56,61,37
+Orange,70010,Ruggles,70008,Roxbury Crossing,sunday,offpeak,55.06,6.02,46,56,61,38
+Orange,70010,Ruggles,70008,Roxbury Crossing,weekday,offpeak,56.4,17.88,46,56,64,39
+Orange,70010,Ruggles,70008,Roxbury Crossing,weekday,peak,56.63,7.51,47,57,64,40
+Orange,70011,Ruggles,70013,Massachusetts Avenue,saturday,offpeak,65.51,19.37,42,55,92,41
+Orange,70011,Ruggles,70013,Massachusetts Avenue,weekday,peak,59.59,32.12,39,52,98,42
+Orange,70011,Ruggles,70013,Massachusetts Avenue,sunday,offpeak,62.25,33.94,40,54,89,43
+Orange,70011,Ruggles,70013,Massachusetts Avenue,weekday,offpeak,58.6,28.37,39,53,92,44
+Orange,70012,Massachusetts Avenue,70010,Ruggles,saturday,offpeak,58.58,30.92,43,51,83,45
+Orange,70012,Massachusetts Avenue,70010,Ruggles,weekday,offpeak,52.75,16.26,39,50,80,46
+Orange,70012,Massachusetts Avenue,70010,Ruggles,sunday,offpeak,54.81,16.5,40,51,78.95,47
+Orange,70012,Massachusetts Avenue,70010,Ruggles,weekday,peak,54.26,21.38,39,50,86,48
+Orange,70013,Massachusetts Avenue,70015,Back Bay,weekday,peak,89.49,29.31,74,79,170,49
+Orange,70013,Massachusetts Avenue,70015,Back Bay,sunday,offpeak,94.34,33.81,74,80,173,50
+Blue,70052,Orient Heights,70054,Suffolk Downs,sunday,offpeak,52.47,6.12,45,52,60,51
+Blue,70052,Orient Heights,70054,Suffolk Downs,weekday,peak,56.55,12.15,46,55,70,52
+Blue,70052,Orient Heights,70054,Suffolk Downs,saturday,offpeak,52.08,5.73,44,52,60,53
+Blue,70052,Orient Heights,70054,Suffolk Downs,weekday,offpeak,57.94,152.98,46,55,69,54
+Blue,70053,Suffolk Downs,70051,Orient Heights,sunday,offpeak,56.5,8.65,49,56,65,55
+Blue,70053,Suffolk Downs,70051,Orient Heights,saturday,offpeak,55.64,5.59,48,55,63,56
+Blue,70053,Suffolk Downs,70051,Orient Heights,weekday,peak,59.95,12.22,50,58,72,57
+Blue,70053,Suffolk Downs,70051,Orient Heights,weekday,offpeak,61.7,45.92,50,58,77,58
+Blue,70054,Suffolk Downs,70056,Beachmont,saturday,offpeak,46.97,3.08,46,47,49,59
+Blue,70054,Suffolk Downs,70056,Beachmont,sunday,offpeak,47.11,3.01,46,47,50,60
+Blue,70054,Suffolk Downs,70056,Beachmont,weekday,offpeak,49.33,10.51,46,47,58,61
+Blue,70054,Suffolk Downs,70056,Beachmont,weekday,peak,52.48,18.47,46,48,74,62
+Blue,70055,Beachmont,70053,Suffolk Downs,weekday,offpeak,49.72,13.56,45,47,61,63
+Blue,70055,Beachmont,70053,Suffolk Downs,saturday,offpeak,46.16,4.13,44,46,49,64
+Blue,70055,Beachmont,70053,Suffolk Downs,weekday,peak,48.9,11.67,45,47,57,65
+Blue,70055,Beachmont,70053,Suffolk Downs,sunday,offpeak,46.04,3.49,44,46,49,66
+Blue,70056,Beachmont,70058,Revere Beach,weekday,peak,118.51,75.5,70,82,292,67
+Blue,70056,Beachmont,70058,Revere Beach,weekday,offpeak,86.33,36.91,69,76,143,68
+Blue,70056,Beachmont,70058,Revere Beach,saturday,offpeak,74.32,10.25,68,72,86,69
+Blue,70056,Beachmont,70058,Revere Beach,sunday,offpeak,75.76,12.79,68,73,93.85,70
+Blue,70057,Revere Beach,70055,Beachmont,weekday,peak,72.6,12.23,68,70,82,71
+Blue,70057,Revere Beach,70055,Beachmont,saturday,offpeak,69.52,3.38,67,69,73,72
+Blue,70057,Revere Beach,70055,Beachmont,weekday,offpeak,73.32,14.99,68,70,86,73
+Blue,70057,Revere Beach,70055,Beachmont,sunday,offpeak,69.97,4.15,67,69,74,74
+Blue,70058,Revere Beach,70060,Wonderland,saturday,offpeak,70.25,20.5,58,67,96.4,75
+Blue,70058,Revere Beach,70060,Wonderland,sunday,offpeak,70.89,20.71,58,67,89.9,76
+Blue,70058,Revere Beach,70060,Wonderland,weekday,peak,136.54,67.52,65,126,259,77
+Blue,70058,Revere Beach,70060,Wonderland,weekday,offpeak,95.53,51.31,60,73,214.4,78
+Blue,70059,Wonderland,70057,Revere Beach,weekday,offpeak,37.93,9.11,34,36,45,79
+Blue,70059,Wonderland,70057,Revere Beach,sunday,offpeak,36.15,6.55,34,35,40,80
+Blue,70059,Wonderland,70057,Revere Beach,saturday,offpeak,36.18,5.91,34,35,41,81
+Blue,70059,Wonderland,70057,Revere Beach,weekday,peak,37.61,8.97,34,36,44,82
+Red,70061,Alewife,70063,Davis,saturday,offpeak,108.46,22.31,85,95.5,137,83
+Red,70061,Alewife,70063,Davis,weekday,peak,114.22,23.65,86,124,141,84
+Red,70061,Alewife,70063,Davis,weekday,offpeak,112.41,23.92,86,121,142,85
+Red,70061,Alewife,70063,Davis,sunday,offpeak,109.44,27.68,85,96,139,86
+Red,70063,Davis,70065,Porter,sunday,offpeak,71.01,4.62,68,71,74,87
+Red,70063,Davis,70065,Porter,saturday,offpeak,71.04,4.95,68,70,75,88
+Red,70063,Davis,70065,Porter,weekday,offpeak,71.38,7.13,67,71,76,89
+Red,70063,Davis,70065,Porter,weekday,peak,71.92,11.96,68,71,77,90
+Red,70064,Davis,70061,Alewife,weekday,peak,244.75,108.31,115,234,421,91
+Red,70064,Davis,70061,Alewife,sunday,offpeak,135.67,52.32,108,117,230,92
+Red,70064,Davis,70061,Alewife,saturday,offpeak,136.82,66.2,109,117,232.65,93
+Red,70064,Davis,70061,Alewife,weekday,offpeak,191.12,172.22,109,144,379,94
+Red,70065,Porter,70067,Harvard,weekday,peak,118.61,50.22,80,106,190,95
+Red,70066,Porter,70064,Davis,sunday,offpeak,80.04,12.61,63,78,104,96
+Red,70065,Porter,70067,Harvard,saturday,offpeak,105.09,15.46,99,103,116,97
+Red,70065,Porter,70067,Harvard,weekday,offpeak,109.65,27.63,84,104,155,98
+Red,70065,Porter,70067,Harvard,sunday,offpeak,104.72,12.9,99,103,114,99
+Red,70066,Porter,70064,Davis,weekday,offpeak,83.56,62.55,61,79,111,100
+Red,70066,Porter,70064,Davis,weekday,peak,85.37,23.75,60,81,119,101
+Red,70066,Porter,70064,Davis,saturday,offpeak,79.45,11.35,63,78,101.45,102
+Red,70067,Harvard,70069,Central,saturday,offpeak,180.51,21.21,171,178,196,103
+Red,70067,Harvard,70069,Central,sunday,offpeak,179.78,19.4,171,178,191,104
+Red,70067,Harvard,70069,Central,weekday,offpeak,188.11,53.44,157,179,300,105
+Red,70067,Harvard,70069,Central,weekday,peak,199.68,79.75,63,180,341.45,106
+Red,70068,Harvard,70066,Porter,weekday,peak,159.92,44.15,139,153,195,107
+Red,70068,Harvard,70066,Porter,saturday,offpeak,150.85,27.74,137,147,170,108
+Red,70068,Harvard,70066,Porter,weekday,offpeak,152.57,40.01,136,148,177,109
+Red,70068,Harvard,70066,Porter,sunday,offpeak,149.44,27.13,136,146,167,110
+Red,70069,Central,70071,Kendall/MIT,weekday,offpeak,87.97,28.62,81,84,100,111
+Red,70069,Central,70071,Kendall/MIT,sunday,offpeak,93.18,23.74,81,84,130,112
+Red,70069,Central,70071,Kendall/MIT,saturday,offpeak,94.6,30.56,81,85,147.1,113
+Red,70069,Central,70071,Kendall/MIT,weekday,peak,90.79,34.19,81,85,107,114
+Red,70070,Central,70068,Harvard,sunday,offpeak,188.16,31.9,153,187,242,115
+Red,70070,Central,70068,Harvard,weekday,offpeak,199.26,50.05,151,190,287,116
+Red,70070,Central,70068,Harvard,saturday,offpeak,191.9,35.62,155,187,262,117
+Red,70070,Central,70068,Harvard,weekday,peak,227.12,70.83,154.15,209,353,118
+Red,70071,Kendall/MIT,70073,Charles/MGH,weekday,peak,86.77,46.11,66,73,167,119
+Red,70071,Kendall/MIT,70073,Charles/MGH,saturday,offpeak,69.95,9.23,65,68,81,120
+Red,70071,Kendall/MIT,70073,Charles/MGH,weekday,offpeak,75.97,35.33,65,69,104,121
+Red,70071,Kendall/MIT,70073,Charles/MGH,sunday,offpeak,70.02,18.02,64,67,80,122
+Red,70072,Kendall/MIT,70070,Central,sunday,offpeak,105.1,12.8,97,102,128,123
+Red,70072,Kendall/MIT,70070,Central,saturday,offpeak,105.17,12.95,97,102,128,124
+Red,70072,Kendall/MIT,70070,Central,weekday,peak,114.14,39.29,96,105,160,125
+Red,70072,Kendall/MIT,70070,Central,weekday,offpeak,107.39,20.35,96,103,135,126
+Red,70073,Charles/MGH,70075,Park Street,saturday,offpeak,69.13,17.34,60,64,98.05,127
+Red,70073,Charles/MGH,70075,Park Street,weekday,offpeak,79.46,30.52,60,68,140,128
+Red,70073,Charles/MGH,70075,Park Street,sunday,offpeak,67.73,12.74,60,64,87.75,129
+Red,70073,Charles/MGH,70075,Park Street,weekday,peak,98.78,42.54,62,83,172,130
+Red,70074,Charles/MGH,70072,Kendall/MIT,sunday,offpeak,103.08,42.71,90,100,119.85,131
+Red,70074,Charles/MGH,70072,Kendall/MIT,weekday,offpeak,111.18,35.62,92,106,141,132
+Red,70074,Charles/MGH,70072,Kendall/MIT,saturday,offpeak,103.9,26.83,91,100,122,133
+Red,70074,Charles/MGH,70072,Kendall/MIT,weekday,peak,124.32,37.13,100,117,170,134
+Red,70075,Park Street,70077,Downtown Crossing,weekday,peak,20.38,8.58,17,18,34,135
+Red,70075,Park Street,70077,Downtown Crossing,weekday,offpeak,19.95,8.99,17,18,33,136
+Red,70075,Park Street,70077,Downtown Crossing,sunday,offpeak,18.24,3.2,17,18,20,137
+Red,70075,Park Street,70077,Downtown Crossing,saturday,offpeak,19.99,6.2,17,18,36,138
+Red,70076,Park Street,70074,Charles/MGH,weekday,peak,69.62,22.68,59,64,101,139
+Red,70076,Park Street,70074,Charles/MGH,saturday,offpeak,66.9,19.34,58,62,103,140
+Red,70076,Park Street,70074,Charles/MGH,sunday,offpeak,63.23,10.56,58,61,74,141
+Red,70076,Park Street,70074,Charles/MGH,weekday,offpeak,66.48,31.48,58,62,87,142
+Red,70077,Downtown Crossing,70079,South Station,sunday,offpeak,24.51,2.12,23,24,26,143
+Red,70077,Downtown Crossing,70079,South Station,weekday,offpeak,25.71,8.02,23,24,36,144
+Red,70077,Downtown Crossing,70079,South Station,saturday,offpeak,24.7,6.49,23,24,26,145
+Red,70077,Downtown Crossing,70079,South Station,weekday,peak,26.22,9.4,23,24,42,146
+Red,70079,South Station,70081,Broadway,sunday,offpeak,130.09,34.51,115,125,148,147
+Red,70079,South Station,70081,Broadway,weekday,peak,148.93,37.68,125,142,190,148
+Red,70079,South Station,70081,Broadway,weekday,offpeak,135.06,32.97,117,129,165,149
+Red,70079,South Station,70081,Broadway,saturday,offpeak,128.61,17.46,116,126,147,150
+Red,70091,Shawmut,70093,Ashmont,weekday,peak,101.8,48.02,75,101,125.65,151
+Red,70091,Shawmut,70093,Ashmont,weekday,offpeak,103.12,38.08,76,102,127,152
+Red,70092,Shawmut,70090,Fields Corner,sunday,offpeak,60.89,3.2,57,61,64,153
+Red,70092,Shawmut,70090,Fields Corner,weekday,offpeak,60.2,5.55,56,60,64,154
+Red,70092,Shawmut,70090,Fields Corner,weekday,peak,60.77,16.2,56,60,64,155
+Red,70092,Shawmut,70090,Fields Corner,saturday,offpeak,60.69,4.41,57,61,64,156
+Red,70094,Ashmont,70092,Shawmut,weekday,peak,80.17,6.14,76,80,85,157
+Red,70094,Ashmont,70092,Shawmut,weekday,offpeak,80.79,9.33,76,81,85,158
+Red,70094,Ashmont,70092,Shawmut,saturday,offpeak,80.86,6.79,77,81,84,159
+Red,70094,Ashmont,70092,Shawmut,sunday,offpeak,80.21,6.47,75,81,85,160
+Red,70095,JFK/UMass,70097,North Quincy,saturday,offpeak,348.27,106.79,65.8,379,398,161
+Red,70095,JFK/UMass,70097,North Quincy,sunday,offpeak,345.26,100.17,142,379,404.1,162
+Red,70095,JFK/UMass,70097,North Quincy,weekday,peak,345.92,98.23,122,379,418,163
+Red,70095,JFK/UMass,70097,North Quincy,weekday,offpeak,349.67,99.28,122,379,426,164
+Red,70096,JFK/UMass,70084,Andrew,weekday,peak,125.25,41.81,86,111,209,165
+Red,70096,JFK/UMass,70084,Andrew,sunday,offpeak,116.36,36.31,85,110,169,166
+Red,70096,JFK/UMass,70084,Andrew,weekday,offpeak,121.68,80.11,85,111,186,167
+Red,70096,JFK/UMass,70084,Andrew,saturday,offpeak,116.58,29.89,85,111,166,168
+Red,70097,North Quincy,70099,Wollaston,saturday,offpeak,82.93,25.44,65,69,127,169
+Red,70097,North Quincy,70099,Wollaston,weekday,peak,80.69,24.57,65,69,129,170
+Red,70097,North Quincy,70099,Wollaston,sunday,offpeak,79.22,22.74,65,68,127,171
+Red,70097,North Quincy,70099,Wollaston,weekday,offpeak,81.56,24.99,66,69,129,172
+Red,70098,North Quincy,70096,JFK/UMass,weekday,peak,397.14,140.17,334,352,722.6,173
+Red,70098,North Quincy,70096,JFK/UMass,saturday,offpeak,395.8,88.29,334,352,596,174
+Red,70098,North Quincy,70096,JFK/UMass,sunday,offpeak,401.5,149.89,335,353,598,175
+Red,70098,North Quincy,70096,JFK/UMass,weekday,offpeak,392.13,110.78,333,352,621,176
+Red,70099,Wollaston,70101,Quincy Center,saturday,offpeak,137.86,18.73,122,128,163,177
+Red,70099,Wollaston,70101,Quincy Center,sunday,offpeak,138.89,37.27,122,127,171,178
+Red,70099,Wollaston,70101,Quincy Center,weekday,peak,138.72,23.29,121,128,168,179
+Red,70099,Wollaston,70101,Quincy Center,weekday,offpeak,139.62,26.96,121,129,171,180
+Red,70100,Wollaston,70098,North Quincy,weekday,offpeak,90.97,24.95,80,86,113,181
+Red,70100,Wollaston,70098,North Quincy,saturday,offpeak,85.84,14.08,80,84,95,182
+Red,70100,Wollaston,70098,North Quincy,sunday,offpeak,87.79,17.71,80,83,108,183
+Red,70100,Wollaston,70098,North Quincy,weekday,peak,94.21,32.12,80,87,135,184
+Red,70101,Quincy Center,70103,Quincy Adams,sunday,offpeak,129.92,16.97,122,127,143,185
+Red,70101,Quincy Center,70103,Quincy Adams,weekday,peak,132.22,18.75,122,127,157,186
+Red,70101,Quincy Center,70103,Quincy Adams,weekday,offpeak,136.23,33.94,122,127,177,187
+Red,70101,Quincy Center,70103,Quincy Adams,saturday,offpeak,129.52,16.81,121,127,141,188
+Red,70102,Quincy Center,70100,Wollaston,weekday,offpeak,192.75,48.69,165,184,249,189
+Red,70102,Quincy Center,70100,Wollaston,sunday,offpeak,187.28,33.03,162,181,257.25,190
+Red,70102,Quincy Center,70100,Wollaston,weekday,peak,195.56,35.64,167,188,262.5,191
+Red,70102,Quincy Center,70100,Wollaston,saturday,offpeak,183.31,25.77,162,181,203,192
+Red,70103,Quincy Adams,70105,Braintree,weekday,offpeak,360.8,126.91,274,322,571,193
+Red,70103,Quincy Adams,70105,Braintree,weekday,peak,362.14,88,278,330,537,194
+Red,70103,Quincy Adams,70105,Braintree,saturday,offpeak,322.43,79.9,271,302,441.9,195
+Red,70103,Quincy Adams,70105,Braintree,sunday,offpeak,326.97,63.81,269,306,436.85,196
+Red,70104,Quincy Adams,70102,Quincy Center,saturday,offpeak,170.78,16.03,159,168,196,197
+Red,70104,Quincy Adams,70102,Quincy Center,sunday,offpeak,172.56,40.2,160,167,193,198
+Red,70104,Quincy Adams,70102,Quincy Center,weekday,offpeak,170.51,18.67,159,168,187,199
+Red,70104,Quincy Adams,70102,Quincy Center,weekday,peak,170.37,16.16,158,168,187,200
+Orange,70013,Massachusetts Avenue,70015,Back Bay,saturday,offpeak,94.17,34.13,74,79,173,201
+Orange,70013,Massachusetts Avenue,70015,Back Bay,weekday,offpeak,89.41,30.62,74,79,170,202
+Orange,70014,Back Bay,70012,Massachusetts Avenue,saturday,offpeak,84.17,8.02,78,82,94,203
+Orange,70014,Back Bay,70012,Massachusetts Avenue,weekday,peak,84.32,16.22,79,82,96.1,204
+Orange,70014,Back Bay,70012,Massachusetts Avenue,sunday,offpeak,84.32,7.82,78,82,94,205
+Orange,70014,Back Bay,70012,Massachusetts Avenue,weekday,offpeak,83.23,8.16,78,81,93,206
+Orange,70015,Back Bay,70017,Tufts Medical Center,weekday,peak,83.5,24.42,69,76,124.3,207
+Orange,70015,Back Bay,70017,Tufts Medical Center,sunday,offpeak,83.81,20.7,70,77,114,208
+Orange,70015,Back Bay,70017,Tufts Medical Center,saturday,offpeak,83.02,24.41,70,75,115,209
+Orange,70015,Back Bay,70017,Tufts Medical Center,weekday,offpeak,83.62,26.28,69,75,123,210
+Orange,70016,Tufts Medical Center,70014,Back Bay,weekday,peak,78.15,40.05,45,71,141,211
+Orange,70016,Tufts Medical Center,70014,Back Bay,saturday,offpeak,71.76,18.45,46,70,81,212
+Orange,70016,Tufts Medical Center,70014,Back Bay,sunday,offpeak,71.96,20.75,47,70,82,213
+Orange,70016,Tufts Medical Center,70014,Back Bay,weekday,offpeak,73.96,27.24,45,71,92,214
+Orange,70017,Tufts Medical Center,70019,Chinatown,weekday,offpeak,38.12,15.14,27,35,57,215
+Orange,70017,Tufts Medical Center,70019,Chinatown,weekday,peak,38.36,17.14,27,35,59,216
+Orange,70017,Tufts Medical Center,70019,Chinatown,saturday,offpeak,41.31,16.15,28,37,59,217
+Orange,70017,Tufts Medical Center,70019,Chinatown,sunday,offpeak,40.66,19.26,28,37,56,218
+Orange,70018,Chinatown,70016,Tufts Medical Center,saturday,offpeak,37.11,16.7,25,27,64,219
+Orange,70018,Chinatown,70016,Tufts Medical Center,sunday,offpeak,35.34,15.71,25,27,64,220
+Orange,70018,Chinatown,70016,Tufts Medical Center,weekday,peak,40.71,20.81,24,28,65,221
+Orange,70018,Chinatown,70016,Tufts Medical Center,weekday,offpeak,41.2,19.59,25,28,65,222
+Orange,70019,Chinatown,70021,Downtown Crossing,weekday,peak,37.37,25.91,28,30,82.35,223
+Orange,70019,Chinatown,70021,Downtown Crossing,saturday,offpeak,31.04,6.3,28,30,37,224
+Orange,70019,Chinatown,70021,Downtown Crossing,weekday,offpeak,33.35,13.62,28,30,47,225
+Orange,70019,Chinatown,70021,Downtown Crossing,sunday,offpeak,31.18,5.24,28,30,38.9,226
+Orange,70020,Downtown Crossing,70018,Chinatown,weekday,peak,28.59,9.51,25,27,38,227
+Orange,70020,Downtown Crossing,70018,Chinatown,sunday,offpeak,27.77,3.29,25,27,34.1,228
+Orange,70020,Downtown Crossing,70018,Chinatown,weekday,offpeak,28.23,5.55,25,27,36,229
+Orange,70020,Downtown Crossing,70018,Chinatown,saturday,offpeak,27.45,3.1,25,27,33.9,230
+Orange,70021,Downtown Crossing,70023,State Street,saturday,offpeak,34.95,24.85,23,25,58,231
+Orange,70021,Downtown Crossing,70023,State Street,sunday,offpeak,32.08,13.63,23,25,57,232
+Orange,70021,Downtown Crossing,70023,State Street,weekday,offpeak,40.66,23.45,23,36,63,233
+Orange,70021,Downtown Crossing,70023,State Street,weekday,peak,45.55,39.34,23,42,87,234
+Orange,70022,State Street,70020,Downtown Crossing,saturday,offpeak,17.67,6.89,14,15,38,235
+Orange,70022,State Street,70020,Downtown Crossing,sunday,offpeak,18.14,7.05,14,16,38,236
+Orange,70022,State Street,70020,Downtown Crossing,weekday,peak,21.29,10.05,14,16,40,237
+Orange,70022,State Street,70020,Downtown Crossing,weekday,offpeak,21.15,10.14,14,16,40,238
+Orange,70023,State Street,70025,Haymarket,weekday,offpeak,30.07,17.22,19,25,48,239
+Orange,70023,State Street,70025,Haymarket,sunday,offpeak,29.04,9.12,19,26,45,240
+Orange,70023,State Street,70025,Haymarket,saturday,offpeak,30.29,11.38,19,28,47,241
+Orange,70023,State Street,70025,Haymarket,weekday,peak,32.01,26.35,19,25,55,242
+Orange,70024,Haymarket,70022,State Street,sunday,offpeak,45.18,11.85,40,43,63.65,243
+Orange,70024,Haymarket,70022,State Street,weekday,offpeak,50.64,21.85,40,43,99,244
+Orange,70024,Haymarket,70022,State Street,weekday,peak,53.2,28.12,40,43,104,245
+Orange,70024,Haymarket,70022,State Street,saturday,offpeak,46.35,16.41,40,43,71,246
+Orange,70025,Haymarket,70027,North Station,saturday,offpeak,31.43,7.43,27,30,41,247
+Orange,70025,Haymarket,70027,North Station,weekday,offpeak,32.44,7.44,27,31,43,248
+Orange,70025,Haymarket,70027,North Station,sunday,offpeak,31.48,4.09,27,31,41,249
+Orange,70025,Haymarket,70027,North Station,weekday,peak,32.25,7.25,27,31,42,250
+Orange,70026,North Station,70024,Haymarket,saturday,offpeak,56.62,26.07,32,59,79,251
+Orange,70026,North Station,70024,Haymarket,weekday,offpeak,61.64,48.62,32,61,93,252
+Orange,70026,North Station,70024,Haymarket,sunday,offpeak,63.73,58.48,33,61,96.7,253
+Orange,70026,North Station,70024,Haymarket,weekday,peak,72.46,36.65,33,71,116,254
+Orange,70027,North Station,70029,Community College,weekday,peak,101.91,11.41,88,101,115,255
+Orange,70027,North Station,70029,Community College,weekday,offpeak,101.53,14.07,87,101,115,256
+Orange,70027,North Station,70029,Community College,sunday,offpeak,100,10.64,85.05,100,111,257
+Orange,70027,North Station,70029,Community College,saturday,offpeak,99.31,11.87,86,99,112,258
+Orange,70028,Community College,70026,North Station,sunday,offpeak,108.29,48.65,84,95,180,259
+Orange,70028,Community College,70026,North Station,weekday,offpeak,98.69,31.33,83,90,150,260
+Orange,70028,Community College,70026,North Station,saturday,offpeak,108.56,74.66,84,95,176.45,261
+Orange,70028,Community College,70026,North Station,weekday,peak,104.03,63.35,83,91,172,262
+Orange,70029,Community College,70031,Sullivan Square,saturday,offpeak,88.78,18.39,75.25,82,120,263
+Orange,70029,Community College,70031,Sullivan Square,sunday,offpeak,89.34,13.57,76,84,114,264
+Orange,70029,Community College,70031,Sullivan Square,weekday,peak,88.95,18.59,76,84,116,265
+Orange,70029,Community College,70031,Sullivan Square,weekday,offpeak,87.89,22.41,76,83,114,266
+Orange,70030,Sullivan Square,70028,Community College,saturday,offpeak,85.04,7.32,79,84,94,267
+Orange,70030,Sullivan Square,70028,Community College,sunday,offpeak,87.75,9.33,79,85,107,268
+Orange,70030,Sullivan Square,70028,Community College,weekday,offpeak,85.84,19.52,78,84,96,269
+Orange,70030,Sullivan Square,70028,Community College,weekday,peak,87.28,18.41,79,85,99,270
+Orange,70031,Sullivan Square,70279,Assembly,sunday,offpeak,61.03,10.48,50,58,74,271
+Orange,70031,Sullivan Square,70279,Assembly,saturday,offpeak,59.34,12.91,45.65,56,74,272
+Orange,70031,Sullivan Square,70279,Assembly,weekday,peak,60.14,13.31,49,56,76,273
+Orange,70031,Sullivan Square,70279,Assembly,weekday,offpeak,60.18,42.69,49,56,75,274
+Orange,70032,Wellington,70278,Assembly,weekday,offpeak,60.74,11.98,55,59,70,275
+Orange,70032,Wellington,70278,Assembly,saturday,offpeak,60.12,9.12,55,58,70,276
+Orange,70032,Wellington,70278,Assembly,weekday,peak,60.91,8.1,56,59,70,277
+Orange,70032,Wellington,70278,Assembly,sunday,offpeak,61.56,8.2,55,59,79,278
+Orange,70033,Wellington,70035,Malden Center,weekday,offpeak,225.8,74.47,191,207,303,279
+Orange,70033,Wellington,70035,Malden Center,sunday,offpeak,220.3,47,192,208,280,280
+Orange,70033,Wellington,70035,Malden Center,saturday,offpeak,219.22,38.1,191,206,285,281
+Orange,70033,Wellington,70035,Malden Center,weekday,peak,223.68,53.83,191,206.5,297,282
+Orange,70034,Malden Center,70032,Wellington,sunday,offpeak,245.83,111.93,174,206,474.75,283
+Orange,70034,Malden Center,70032,Wellington,weekday,peak,209.79,39.58,176,200,268,284
+Orange,70034,Malden Center,70032,Wellington,weekday,offpeak,213.09,50.24,175,200,280,285
+Blue,70039,Government Center,70838,Bowdoin,weekday,offpeak,46.23,58.12,31,35,115,286
+Orange,70034,Malden Center,70032,Wellington,saturday,offpeak,223.53,73.29,176,199,350.3,287
+Orange,70035,Malden Center,70036,Oak Grove,weekday,offpeak,141.36,192.11,90,118,261,288
+Orange,70035,Malden Center,70036,Oak Grove,sunday,offpeak,116.84,82.62,86,111,157.25,289
+Orange,70035,Malden Center,70036,Oak Grove,saturday,offpeak,114.63,43.26,86,109,162.8,290
+Orange,70035,Malden Center,70036,Oak Grove,weekday,peak,146.41,61.3,93,122,271,291
+Orange,70036,Oak Grove,70034,Malden Center,saturday,offpeak,92.48,17.82,64,89,118,292
+Orange,70036,Oak Grove,70034,Malden Center,weekday,peak,95.48,15.55,67,94,115,293
+Orange,70036,Oak Grove,70034,Malden Center,sunday,offpeak,92.95,21.56,64,88,121,294
+Orange,70036,Oak Grove,70034,Malden Center,weekday,offpeak,95.36,18.98,66,92,117,295
+Blue,70038,Bowdoin,70040,Government Center,saturday,offpeak,15.83,1.93,14,16,19,296
+Blue,70038,Bowdoin,70040,Government Center,weekday,offpeak,17.01,8.44,14,16,21,297
+Blue,70038,Bowdoin,70040,Government Center,sunday,offpeak,15.81,1.9,14,15,19.25,298
+Blue,70038,Bowdoin,70040,Government Center,weekday,peak,16.89,4.29,14,16,22,299
+Blue,70039,Government Center,70838,Bowdoin,saturday,offpeak,35.22,14.19,31,34,40,300
+Blue,70039,Government Center,70838,Bowdoin,weekday,peak,51.26,30.14,32,37,113,301
+Blue,70039,Government Center,70838,Bowdoin,sunday,offpeak,35.34,11.31,30,34,41,302
+Blue,70040,Government Center,70042,State Street,saturday,offpeak,33.5,2.44,30,33,38,303
+Blue,70040,Government Center,70042,State Street,weekday,offpeak,34.69,5.48,31,34,39,304
+Blue,70040,Government Center,70042,State Street,sunday,offpeak,33.31,2.89,30,33,37,305
+Blue,70040,Government Center,70042,State Street,weekday,peak,35.71,7.94,31,34,42.9,306
+Blue,70041,State Street,70039,Government Center,saturday,offpeak,33.43,2.86,29,33,38,307
+Blue,70041,State Street,70039,Government Center,weekday,peak,36.63,9.88,31,35,47,308
+Blue,70041,State Street,70039,Government Center,weekday,offpeak,36.24,10.76,31,34,44,309
+Blue,70041,State Street,70039,Government Center,sunday,offpeak,33.64,4.75,29,33,39,310
+Blue,70042,State Street,70044,Aquarium,sunday,offpeak,29.61,3.19,26,29,36,311
+Blue,70042,State Street,70044,Aquarium,saturday,offpeak,29.63,3.29,26,29,36,312
+Blue,70042,State Street,70044,Aquarium,weekday,offpeak,31.5,7.95,26,31,38,313
+Blue,70042,State Street,70044,Aquarium,weekday,peak,31.64,4.77,26,31,38,314
+Blue,70043,Aquarium,70041,State Street,weekday,peak,31.37,6.12,28,30,38,315
+Blue,70043,Aquarium,70041,State Street,weekday,offpeak,31.11,6.49,28,30,36,316
+Blue,70043,Aquarium,70041,State Street,saturday,offpeak,30.32,2.3,28,30,35,317
+Blue,70043,Aquarium,70041,State Street,sunday,offpeak,30.12,2.13,28,30,34,318
+Blue,70044,Aquarium,70046,Maverick,sunday,offpeak,110.2,20.58,101,107,123,319
+Blue,70044,Aquarium,70046,Maverick,saturday,offpeak,108.72,12.63,101,107,118,320
+Blue,70044,Aquarium,70046,Maverick,weekday,offpeak,113.19,22.59,102,109,134,321
+Blue,70044,Aquarium,70046,Maverick,weekday,peak,111.95,17.02,102,110,124,322
+Blue,70045,Maverick,70043,Aquarium,weekday,offpeak,90.66,12.7,81,88,106,323
+Blue,70045,Maverick,70043,Aquarium,sunday,offpeak,91.34,25.95,80,87,108.1,324
+Blue,70045,Maverick,70043,Aquarium,weekday,peak,90.55,16.09,81,88,102,325
+Blue,70045,Maverick,70043,Aquarium,saturday,offpeak,88.15,10.38,81,87,97,326
+Blue,70046,Maverick,70048,Airport,weekday,offpeak,79.76,11.62,69,79,94,327
+Blue,70046,Maverick,70048,Airport,sunday,offpeak,77.01,8.98,67,77,86,328
+Blue,70046,Maverick,70048,Airport,weekday,peak,80.88,11.05,71,79,95,329
+Blue,70046,Maverick,70048,Airport,saturday,offpeak,76.78,6.86,68,77,86,330
+Blue,70047,Airport,70045,Maverick,saturday,offpeak,118.75,15.82,96,119,140.7,331
+Blue,70047,Airport,70045,Maverick,weekday,offpeak,123.96,20.81,102,121,154,332
+Blue,70047,Airport,70045,Maverick,sunday,offpeak,121.33,17.34,98,121,150,333
+Blue,70047,Airport,70045,Maverick,weekday,peak,125.14,20.43,103,122,158,334
+Blue,70048,Airport,70050,Wood Island,weekday,offpeak,60.31,8.57,54,59,69,335
+Blue,70048,Airport,70050,Wood Island,sunday,offpeak,58.06,5.86,53,58,63,336
+Blue,70048,Airport,70050,Wood Island,weekday,peak,60.61,6.92,55,59,70,337
+Blue,70048,Airport,70050,Wood Island,saturday,offpeak,58.13,3.93,53,58,64,338
+Blue,70049,Wood Island,70047,Airport,weekday,peak,61.35,12.11,53,59,74,339
+Blue,70049,Wood Island,70047,Airport,sunday,offpeak,57.73,4.79,52,57,67,340
+Blue,70049,Wood Island,70047,Airport,saturday,offpeak,57.38,3.95,52,57,65,341
+Blue,70049,Wood Island,70047,Airport,weekday,offpeak,61.04,10.46,53,59,73,342
+Blue,70050,Wood Island,70052,Orient Heights,sunday,offpeak,117.22,17.27,103,113,144,343
+Blue,70050,Wood Island,70052,Orient Heights,saturday,offpeak,118.68,24.24,103,114,146,344
+Blue,70050,Wood Island,70052,Orient Heights,weekday,peak,128.93,29.64,107,119,177.25,345
+Blue,70050,Wood Island,70052,Orient Heights,weekday,offpeak,136.22,50.69,105,120,227.55,346
+Blue,70051,Orient Heights,70049,Wood Island,weekday,offpeak,111.15,14.78,101,108,134,347
+Blue,70051,Orient Heights,70049,Wood Island,saturday,offpeak,106.19,8.3,100,105,115,348
+Blue,70051,Orient Heights,70049,Wood Island,weekday,peak,110.63,16.71,101,107,133,349
+Blue,70051,Orient Heights,70049,Wood Island,sunday,offpeak,106.01,9.21,100,104,114,350
+Red,70080,South Station,70078,Downtown Crossing,saturday,offpeak,21.97,13.39,19,20,28,351
+Red,70080,South Station,70078,Downtown Crossing,sunday,offpeak,21.51,13.39,19,20,25,352
+Red,70080,South Station,70078,Downtown Crossing,weekday,offpeak,24.02,21.85,19,20,49,353
+Red,70080,South Station,70078,Downtown Crossing,weekday,peak,31.61,34.47,18,20,104,354
+Red,70081,Broadway,70083,Andrew,weekday,peak,108.38,59.71,23,116,174,355
+Red,70081,Broadway,70083,Andrew,weekday,offpeak,104.43,56.44,23,111,164,356
+Red,70081,Broadway,70083,Andrew,sunday,offpeak,110.14,38.76,24,110,169,357
+Red,70081,Broadway,70083,Andrew,saturday,offpeak,102.51,35.71,24,109,132.35,358
+Red,70082,Broadway,70080,South Station,weekday,peak,109.23,24.96,92,103,152,359
+Red,70082,Broadway,70080,South Station,saturday,offpeak,101.81,8.54,92,102,110,360
+Red,70082,Broadway,70080,South Station,weekday,offpeak,103.98,33.72,91,101,122,361
+Red,70082,Broadway,70080,South Station,sunday,offpeak,104.08,17.43,95,102,115.55,362
+Red,70083,Andrew,70085,JFK/UMass,weekday,peak,106.52,18.44,96,101,144,363
+Red,70083,Andrew,70085,JFK/UMass,weekday,offpeak,109.47,28.59,96,101,151,364
+Red,70083,Andrew,70085,JFK/UMass,saturday,offpeak,105.81,17.86,96,101,142,365
+Red,70083,Andrew,70085,JFK/UMass,sunday,offpeak,105.15,17.54,95,101,135,366
+Red,70083,Andrew,70095,JFK/UMass,saturday,offpeak,109.59,21.36,98,103,146.55,367
+Red,70083,Andrew,70095,JFK/UMass,weekday,peak,113.8,33.2,97.75,103,160,368
+Red,70083,Andrew,70095,JFK/UMass,sunday,offpeak,109.43,20.13,97.2,103,144,369
+Red,70083,Andrew,70095,JFK/UMass,weekday,offpeak,112.91,27.77,97,103,157,370
+Red,70084,Andrew,70082,Broadway,weekday,offpeak,121.05,46.9,102,113,155,371
+Red,70084,Andrew,70082,Broadway,weekday,peak,127.1,36.82,105,119,172,372
+Red,70084,Andrew,70082,Broadway,sunday,offpeak,157.09,105.97,101,112,409,373
+Red,70084,Andrew,70082,Broadway,saturday,offpeak,160.08,115.07,101,112,427.25,374
+Red,70085,JFK/UMass,70087,Savin Hill,saturday,offpeak,71.22,17.31,63,70,94.75,375
+Red,70085,JFK/UMass,70087,Savin Hill,weekday,peak,76.07,17.38,64,72,104,376
+Red,70085,JFK/UMass,70087,Savin Hill,weekday,offpeak,74.79,18.81,64,71,103,377
+Red,70085,JFK/UMass,70087,Savin Hill,sunday,offpeak,75.77,35.42,63,71,103,378
+Red,70086,JFK/UMass,70084,Andrew,weekday,peak,121.61,49.19,93,101,221,379
+Red,70086,JFK/UMass,70084,Andrew,sunday,offpeak,112.11,39.84,93,101,182.6,380
+Red,70086,JFK/UMass,70084,Andrew,weekday,offpeak,117.52,51.59,93,101,210,381
+Red,70086,JFK/UMass,70084,Andrew,saturday,offpeak,112.06,69.17,93,100,169,382
+Red,70087,Savin Hill,70089,Fields Corner,sunday,offpeak,114.44,26.62,112,118,131,383
+Red,70087,Savin Hill,70089,Fields Corner,weekday,offpeak,120.95,24.97,114,119,148,384
+Red,70087,Savin Hill,70089,Fields Corner,weekday,peak,121.36,17.71,114,119,146,385
+Red,70087,Savin Hill,70089,Fields Corner,saturday,offpeak,117.08,26.56,113,118,128,386
+Red,70088,Savin Hill,70086,JFK/UMass,weekday,offpeak,73.78,18.36,64,68,101,387
+Red,70088,Savin Hill,70086,JFK/UMass,sunday,offpeak,80.42,66.41,64,68,105.1,388
+Red,70088,Savin Hill,70086,JFK/UMass,weekday,peak,73.72,20.01,64,68,102,389
+Red,70088,Savin Hill,70086,JFK/UMass,saturday,offpeak,72.5,14.96,64,67,96,390
+Red,70089,Fields Corner,70091,Shawmut,weekday,offpeak,54.45,16.74,46,50,72,391
+Red,70089,Fields Corner,70091,Shawmut,weekday,peak,53.47,10.19,45,50,72,392
+Red,70089,Fields Corner,70091,Shawmut,sunday,offpeak,54.63,15.12,47,50,72,393
+Red,70089,Fields Corner,70091,Shawmut,saturday,offpeak,53.78,19.61,47,50,72,394
+Red,70090,Fields Corner,70088,Savin Hill,saturday,offpeak,150.09,31.4,129,146,175.15,395
+Red,70090,Fields Corner,70088,Savin Hill,weekday,peak,167.77,57.43,136,153,262,396
+Red,70090,Fields Corner,70088,Savin Hill,weekday,offpeak,157.86,38.35,133,150,211,397
+Red,70090,Fields Corner,70088,Savin Hill,sunday,offpeak,147.71,26.27,130,145,168,398
+Red,70091,Shawmut,70093,Ashmont,sunday,offpeak,103.28,25.13,77,105,113.5,399
+Red,70091,Shawmut,70093,Ashmont,saturday,offpeak,103.46,19.74,77,106,113,400
+Green-B,70140,Saint Paul Street,70142,Boston University West,weekday,peak,25.3,8.57,18,24,36,401
+Green-B,70140,Saint Paul Street,70142,Boston University West,weekday,offpeak,24.7,6.69,18,24,32.2,402
+Green-B,70140,Saint Paul Street,70142,Boston University West,saturday,offpeak,23.88,6.02,18,24,30,403
+Green-B,70140,Saint Paul Street,70142,Boston University West,sunday,offpeak,23.38,6.17,18,24,30,404
+Green-B,70141,Saint Paul Street,70139,Pleasant Street,sunday,offpeak,33.55,16.27,18,24,66,405
+Green-B,70141,Saint Paul Street,70139,Pleasant Street,saturday,offpeak,33.84,21.48,18,24,66,406
+Green-B,70141,Saint Paul Street,70139,Pleasant Street,weekday,peak,32.88,20.35,18,24,66,407
+Green-B,70141,Saint Paul Street,70139,Pleasant Street,weekday,offpeak,33.88,22.52,18,25,68,408
+Green-B,70142,Boston University West,70144,Boston University Central,saturday,offpeak,93.39,30.86,49.75,96,147.75,409
+Green-B,70142,Boston University West,70144,Boston University Central,weekday,offpeak,95.65,34.12,54,96,150,410
+Green-B,70142,Boston University West,70144,Boston University Central,sunday,offpeak,88.27,31.47,48,85,144,411
+Green-B,70142,Boston University West,70144,Boston University Central,weekday,peak,103.38,35.66,54,103,157,412
+Green-B,70143,Boston University West,70141,Saint Paul Street,weekday,peak,53.6,26.7,18,54,96,413
+Green-B,70143,Boston University West,70141,Saint Paul Street,sunday,offpeak,49.25,23.8,18,48,90,414
+Green-B,70143,Boston University West,70141,Saint Paul Street,saturday,offpeak,49.32,24.61,18,48,90,415
+Green-B,70143,Boston University West,70141,Saint Paul Street,weekday,offpeak,51.67,65.66,18,48,90,416
+Green-D,70169,Newton Highlands,70167,Eliot,weekday,peak,92.04,29.72,72,84,133,417
+Green-B,70144,Boston University Central,70146,Boston University East,sunday,offpeak,34.25,16.41,18,30,66,418
+Green-B,70144,Boston University Central,70146,Boston University East,saturday,offpeak,36,17.3,18,30,66,419
+Green-E,70155,Copley,70239,Prudential,sunday,offpeak,84.16,20.51,67,78.5,118,420
+Green-D,70169,Newton Highlands,70167,Eliot,weekday,offpeak,98.05,194.86,72,90,138,421
+Green-B,70144,Boston University Central,70146,Boston University East,weekday,offpeak,36.62,17.19,21,30,66,422
+Green-E,70155,Copley,70239,Prudential,weekday,peak,97.91,30.82,70,87,149,423
+Green-D,70170,Newton Centre,70172,Chestnut Hill,saturday,offpeak,171.07,76.74,144,162,191.75,424
+Green-B,70144,Boston University Central,70146,Boston University East,weekday,peak,36.47,17.49,19,30,67,425
+Red,70105,Braintree,70104,Quincy Adams,weekday,peak,292.68,80.54,208,303.5,386,426
+Green-E,70155,Copley,70239,Prudential,saturday,offpeak,86.5,21.94,68,79.5,127.45,427
+Green-D,70170,Newton Centre,70172,Chestnut Hill,weekday,offpeak,170.67,55.22,145,162,210,428
+Green-B,70145,Boston University Central,70143,Boston University West,weekday,peak,102.37,38.95,54,102,174,429
+Red,70105,Braintree,70104,Quincy Adams,weekday,offpeak,291.69,72.47,209,306,387,430
+Red,70105,Braintree,70104,Quincy Adams,saturday,offpeak,289.61,69.28,211,296,383,431
+Red,70105,Braintree,70104,Quincy Adams,sunday,offpeak,284.23,69.98,210,285,390,432
+Green-B,70110,South Street,70112,Chestnut Hill Avenue,weekday,peak,103.24,44.41,53,96,168,433
+Green-B,70110,South Street,70112,Chestnut Hill Avenue,weekday,offpeak,103.36,43.04,49,97,168,434
+Green-B,70110,South Street,70112,Chestnut Hill Avenue,saturday,offpeak,103.37,44.03,48.8,97,168,435
+Green-B,70110,South Street,70112,Chestnut Hill Avenue,sunday,offpeak,101.52,40.48,48,97,168,436
+Green-B,70111,South Street,70107,Boston College,weekday,offpeak,193.45,111.16,109,174,311.8,437
+Green-B,70111,South Street,70107,Boston College,sunday,offpeak,210.08,166.41,104,169,681,438
+Green-B,70111,South Street,70107,Boston College,weekday,peak,191.32,105.4,108,175,282,439
+Green-B,70111,South Street,70107,Boston College,saturday,offpeak,201.09,144.59,103,168,412.3,440
+Green-B,70112,Chestnut Hill Avenue,70114,Chiswick Road,sunday,offpeak,32.85,9.84,24,30,54,441
+Green-B,70112,Chestnut Hill Avenue,70114,Chiswick Road,saturday,offpeak,33.34,9.57,24,30,49,442
+Green-B,70112,Chestnut Hill Avenue,70114,Chiswick Road,weekday,peak,35.6,11.24,24,36,54,443
+Green-B,70112,Chestnut Hill Avenue,70114,Chiswick Road,weekday,offpeak,34.12,11.55,24,30,49,444
+Green-B,70113,Chestnut Hill Avenue,70111,South Street,saturday,offpeak,49.74,15.5,42,48,60,445
+Green-B,70113,Chestnut Hill Avenue,70111,South Street,sunday,offpeak,50.1,41.09,39.85,48,60,446
+Green-B,70113,Chestnut Hill Avenue,70111,South Street,weekday,peak,53.3,16.18,42,54,66,447
+Green-B,70113,Chestnut Hill Avenue,70111,South Street,weekday,offpeak,53.63,68.34,42,49,66,448
+Green-B,70114,Chiswick Road,70116,Sutherland Road,weekday,peak,41.06,12.44,30,36,66,449
+Green-B,70114,Chiswick Road,70116,Sutherland Road,sunday,offpeak,38.93,11.32,30,36,60,450
+Green-B,70114,Chiswick Road,70116,Sutherland Road,weekday,offpeak,39.86,18.27,30,36,54,451
+Green-B,70114,Chiswick Road,70116,Sutherland Road,saturday,offpeak,38.95,10.5,30,36,54,452
+Green-B,70115,Chiswick Road,70113,Chestnut Hill Avenue,sunday,offpeak,31.73,14.98,23,30,60,453
+Green-B,70115,Chiswick Road,70113,Chestnut Hill Avenue,saturday,offpeak,33.82,20.22,24,30,72,454
+Green-B,70115,Chiswick Road,70113,Chestnut Hill Avenue,weekday,peak,35.11,20.11,24,30,61,455
+Green-B,70115,Chiswick Road,70113,Chestnut Hill Avenue,weekday,offpeak,36.39,23.96,24,30,84,456
+Green-B,70116,Sutherland Road,70120,Washington Street,saturday,offpeak,83.38,25.85,53.45,78,127,457
+Green-B,70116,Sutherland Road,70120,Washington Street,weekday,peak,81.73,27.49,54,72,133,458
+Green-B,70116,Sutherland Road,70120,Washington Street,sunday,offpeak,81.44,25.74,48,78,126,459
+Green-B,70116,Sutherland Road,70120,Washington Street,weekday,offpeak,83.02,31.41,54,78,127,460
+Green-B,70117,Sutherland Road,70115,Chiswick Road,weekday,offpeak,46.34,45.48,30,42,66,461
+Green-B,70117,Sutherland Road,70115,Chiswick Road,weekday,peak,46.82,28.41,30,42,72,462
+Green-B,70117,Sutherland Road,70115,Chiswick Road,sunday,offpeak,43.38,14.99,30,41.5,66,463
+Green-B,70117,Sutherland Road,70115,Chiswick Road,saturday,offpeak,44.46,25.22,30,42,66,464
+Green-B,70120,Washington Street,70124,Warren Street,sunday,offpeak,77.23,15.94,60,72,108,465
+Green-B,70120,Washington Street,70124,Warren Street,weekday,offpeak,82.64,25.13,60,78,114,466
+Green-B,70120,Washington Street,70124,Warren Street,saturday,offpeak,79.8,19.7,60,78,108,467
+Green-B,70120,Washington Street,70124,Warren Street,weekday,peak,87.85,24.01,66,84,133,468
+Green-B,70121,Washington Street,70117,Sutherland Road,weekday,offpeak,69.09,53.36,54,66,84,469
+Green-B,70121,Washington Street,70117,Sutherland Road,weekday,peak,69.85,56.66,54,66,84,470
+Green-B,70121,Washington Street,70117,Sutherland Road,sunday,offpeak,63.11,15.67,48,60,78,471
+Green-B,70121,Washington Street,70117,Sutherland Road,saturday,offpeak,64.31,11.46,54,61,84,472
+Green-B,70124,Warren Street,70126,Allston Street,saturday,offpeak,23.75,6.42,18,24,30,473
+Green-B,70124,Warren Street,70126,Allston Street,sunday,offpeak,23.05,5.43,18,24,30,474
+Green-B,70124,Warren Street,70126,Allston Street,weekday,peak,24.51,8.21,18,24,31,475
+Green-B,70124,Warren Street,70126,Allston Street,weekday,offpeak,23.78,5.82,18,24,30,476
+Green-B,70125,Warren Street,70121,Washington Street,weekday,offpeak,81.13,41.36,60,75,114,477
+Green-B,70125,Warren Street,70121,Washington Street,sunday,offpeak,75.23,38.59,54,67,104.4,478
+Green-B,70145,Boston University Central,70143,Boston University West,saturday,offpeak,95.11,87.45,52,91,150,479
+Green-D,70170,Newton Centre,70172,Chestnut Hill,weekday,peak,170.79,55.45,146,162,210.9,480
+Green-B,70145,Boston University Central,70143,Boston University West,weekday,offpeak,98.17,35.09,54,96,157,481
+Green-E,70155,Copley,70239,Prudential,weekday,offpeak,90.97,41.45,69,82,135,482
+Green-B,70145,Boston University Central,70143,Boston University West,sunday,offpeak,90.28,31.2,48,89,150,483
+Green-D,70170,Newton Centre,70172,Chestnut Hill,sunday,offpeak,165.12,30.29,144,162,198,484
+Green-B,70156,Arlington,70158,Boylston,weekday,offpeak,113.74,48.75,72,98,207,485
+Green-B,70146,Boston University East,70148,Blandford Street,weekday,peak,71.6,21.97,48,66,114,486
+Green-D,70171,Newton Centre,70169,Newton Highlands,saturday,offpeak,92.18,55.15,78,85,108,487
+Green-B,70156,Arlington,70158,Boylston,sunday,offpeak,92.05,26.85,66,85,139,488
+Green-B,70146,Boston University East,70148,Blandford Street,weekday,offpeak,73.54,22.39,48,66,109,489
+Green-D,70171,Newton Centre,70169,Newton Highlands,weekday,offpeak,96.8,61.12,78,90,127,490
+Green-B,70156,Arlington,70158,Boylston,saturday,offpeak,97.61,29.05,68,89,154,491
+Green-B,70146,Boston University East,70148,Blandford Street,sunday,offpeak,73.91,27.26,48,66,114,492
+Green-D,70171,Newton Centre,70169,Newton Highlands,sunday,offpeak,90.34,26.14,78,85,114,493
+Green-B,70156,Arlington,70158,Boylston,weekday,peak,132.9,56.5,79,115,246,494
+Green-B,70146,Boston University East,70148,Blandford Street,saturday,offpeak,72.82,24.13,48,61,114,495
+Green-D,70171,Newton Centre,70169,Newton Highlands,weekday,peak,92.68,21.59,78,90,122.5,496
+Green-C,70156,Arlington,70158,Boylston,saturday,offpeak,96.06,30.02,66,88,154,497
+Green-D,70172,Chestnut Hill,70174,Reservoir,weekday,offpeak,126.39,27.73,103,120,162,498
+Green-B,70147,Boston University East,70145,Boston University Central,weekday,offpeak,43.07,54.78,23,36,78,499
+Green-C,70156,Arlington,70158,Boylston,weekday,offpeak,109.76,47.62,70,95,199.85,500
+Green-B,70147,Boston University East,70145,Boston University Central,saturday,offpeak,39.57,16.96,23,36,72,501
+Green-D,70172,Chestnut Hill,70174,Reservoir,sunday,offpeak,138.66,64.76,102,115,265.3,502
+Green-B,70147,Boston University East,70145,Boston University Central,weekday,peak,42.38,21.36,23,36,74.8,503
+Green-C,70156,Arlington,70158,Boylston,sunday,offpeak,91.8,29.01,67,85,140,504
+Green-D,70172,Chestnut Hill,70174,Reservoir,weekday,peak,127.24,33.77,102,120,163,505
+Green-B,70147,Boston University East,70145,Boston University Central,sunday,offpeak,38.48,17.33,19,32,72,506
+Green-C,70156,Arlington,70158,Boylston,weekday,peak,127.6,54.51,76,108,238.8,507
+Green-B,70149,Blandford Street,70147,Boston University East,saturday,offpeak,113.67,217.4,48,72,197,508
+Green-D,70172,Chestnut Hill,70174,Reservoir,saturday,offpeak,181.32,111.58,102,125,461.45,509
+Green-D,70156,Arlington,70158,Boylston,sunday,offpeak,92.69,24.51,67,87,141,510
+Green-B,70149,Blandford Street,70147,Boston University East,weekday,offpeak,85.21,78.14,48,72,138,511
+Green-D,70173,Chestnut Hill,70171,Newton Centre,saturday,offpeak,166.98,60.53,143.25,157.5,198,512
+Green-D,70156,Arlington,70158,Boylston,weekday,peak,132.54,57.05,75,116,249,513
+Green-B,70149,Blandford Street,70147,Boston University East,sunday,offpeak,96.44,145.29,48,66,161.8,514
+Green-D,70173,Chestnut Hill,70171,Newton Centre,weekday,peak,176.02,71.44,144,162,217,515
+Green-D,70156,Arlington,70158,Boylston,weekday,offpeak,118.42,53.07,71,103,218,516
+Green-B,70149,Blandford Street,70147,Boston University East,weekday,peak,81.16,34.28,48,72,144,517
+Green-D,70173,Chestnut Hill,70171,Newton Centre,weekday,offpeak,179.3,73.79,145,167,228,518
+Green-D,70173,Chestnut Hill,70171,Newton Centre,sunday,offpeak,173.14,82.67,144,157,196.8,519
+Green-D,70174,Reservoir,70176,Beaconsfield,sunday,offpeak,101.45,28.02,66,96,156,520
+Green-D,70174,Reservoir,70176,Beaconsfield,saturday,offpeak,107.93,27.86,78,102,168,521
+Green-D,70174,Reservoir,70176,Beaconsfield,weekday,peak,101.58,24.23,78,102,127,522
+Green-C,70151,Kenmore,70211,Saint Marys Street,weekday,peak,170.29,133.74,112.35,134,693.25,523
+Green-D,70174,Reservoir,70176,Beaconsfield,weekday,offpeak,103.53,35.55,78,102,132,524
+Green-D,70175,Reservoir,70173,Chestnut Hill,saturday,offpeak,125.61,34.8,102,120,152.65,525
+Green-D,70175,Reservoir,70173,Chestnut Hill,sunday,offpeak,130.19,49.48,102,120,163,526
+Green-D,70175,Reservoir,70173,Chestnut Hill,weekday,peak,138.53,55.86,108,132,180,527
+Green-D,70175,Reservoir,70173,Chestnut Hill,weekday,offpeak,143.54,69.92,108,132,194,528
+Green-D,70176,Beaconsfield,70178,Brookline Hills,weekday,peak,114.56,20.12,90,114,144,529
+Green-D,70176,Beaconsfield,70178,Brookline Hills,weekday,offpeak,118.01,50.06,90,114,150,530
+Green-D,70176,Beaconsfield,70178,Brookline Hills,sunday,offpeak,111.22,18.76,84,109,139,531
+Green-D,70176,Beaconsfield,70178,Brookline Hills,saturday,offpeak,115,18.95,90,114,145.9,532
+Green-D,70177,Beaconsfield,70175,Reservoir,saturday,offpeak,300.29,243.18,90,156,727,533
+Green-D,70177,Beaconsfield,70175,Reservoir,weekday,offpeak,122.82,74.13,84,109,169,534
+Green-D,70177,Beaconsfield,70175,Reservoir,sunday,offpeak,291.64,248.85,84,138,711,535
+Green-D,70177,Beaconsfield,70175,Reservoir,weekday,peak,117.68,65.37,78,108,156,536
+Green-D,70178,Brookline Hills,70180,Brookline Village,saturday,offpeak,71.89,15.77,54,72,96,537
+Green-D,70178,Brookline Hills,70180,Brookline Village,weekday,peak,71.91,17.89,54,72,90,538
+Green-D,70178,Brookline Hills,70180,Brookline Village,weekday,offpeak,73.35,17.01,54,72,97,539
+Green-D,70178,Brookline Hills,70180,Brookline Village,sunday,offpeak,68.96,14.05,49,66,91,540
+Green-D,70179,Brookline Hills,70177,Beaconsfield,weekday,offpeak,111.22,64.69,85,108,145,541
+Green-D,70179,Brookline Hills,70177,Beaconsfield,saturday,offpeak,113.6,65.11,85,105,144,542
+Green-D,70179,Brookline Hills,70177,Beaconsfield,weekday,peak,107.81,21.8,84,103,138,543
+Green-D,70179,Brookline Hills,70177,Beaconsfield,sunday,offpeak,106.11,22.48,84,102,139,544
+Green-D,70180,Brookline Village,70182,Longwood,sunday,offpeak,88.8,15.89,72,84,120,545
+Green-D,70180,Brookline Village,70182,Longwood,weekday,peak,91.76,24.35,77.85,85,126,546
+Green-D,70180,Brookline Village,70182,Longwood,saturday,offpeak,90.87,19.3,77,85,120,547
+Green-D,70180,Brookline Village,70182,Longwood,weekday,offpeak,92.78,22.43,76,86,132,548
+Green-D,70181,Brookline Village,70179,Brookline Hills,weekday,offpeak,75.93,26.42,54,72,107.35,549
+Green-D,70181,Brookline Village,70179,Brookline Hills,saturday,offpeak,75.16,56.39,54,72,98,550
+Green-D,70181,Brookline Village,70179,Brookline Hills,weekday,peak,74.35,21.64,54,72,102,551
+Green-D,70181,Brookline Village,70179,Brookline Hills,sunday,offpeak,71.57,43.94,48,66,91.9,552
+Green-C,70150,Kenmore,70152,Hynes Convention Center,weekday,offpeak,121.77,29.3,94,115,170,553
+Green-C,70151,Kenmore,70211,Saint Marys Street,weekday,offpeak,174.57,141.81,111,136,704,554
+Green-D,70156,Arlington,70158,Boylston,saturday,offpeak,97.93,28.9,68,90,156.15,555
+Green-C,70150,Kenmore,70152,Hynes Convention Center,sunday,offpeak,116.69,25.38,94,110,159,556
+Green-B,70152,Hynes Convention Center,70154,Copley,sunday,offpeak,106,32.65,80,98,161,557
+Green-E,70156,Arlington,70158,Boylston,saturday,offpeak,95.67,29.23,67,88,153,558
+Green-C,70150,Kenmore,70152,Hynes Convention Center,weekday,peak,128.25,34.23,97,119,183,559
+Green-B,70152,Hynes Convention Center,70154,Copley,saturday,offpeak,112.46,37.04,83,101,184.7,560
+Green-E,70156,Arlington,70158,Boylston,weekday,offpeak,108.05,46.35,70,93,196.8,561
+Green-C,70150,Kenmore,70152,Hynes Convention Center,saturday,offpeak,122.04,123.44,92,111,166.35,562
+Green-D,70150,Kenmore,70152,Hynes Convention Center,weekday,peak,129.33,37.82,97,117,189,563
+Green-D,70150,Kenmore,70152,Hynes Convention Center,saturday,offpeak,119.79,25.83,94,113,167,564
+Green-D,70150,Kenmore,70152,Hynes Convention Center,sunday,offpeak,117.51,21.87,93,112,159,565
+Green-D,70150,Kenmore,70152,Hynes Convention Center,weekday,offpeak,123.88,31.72,95,115,177,566
+Green-D,70151,Kenmore,70187,Fenway,weekday,peak,184.9,142.38,112,143,668,567
+Green-D,70151,Kenmore,70187,Fenway,saturday,offpeak,200.51,150.52,113.6,153,668.4,568
+Green-D,70151,Kenmore,70187,Fenway,weekday,offpeak,187.69,145.91,112,144,671,569
+Green-D,70151,Kenmore,70187,Fenway,sunday,offpeak,195.96,147.49,109,150,665.5,570
+Green-C,70151,Kenmore,70211,Saint Marys Street,sunday,offpeak,183.56,162.92,108,133,714,571
+Green-C,70151,Kenmore,70211,Saint Marys Street,saturday,offpeak,213.46,200.45,108,133,726,572
+Green-B,70125,Warren Street,70121,Washington Street,weekday,peak,81.46,43.13,60,73,114,573
+Green-B,70152,Hynes Convention Center,70154,Copley,weekday,offpeak,123.07,48.74,84,108,211,574
+Green-B,70125,Warren Street,70121,Washington Street,saturday,offpeak,79.16,51.31,54,72,114,575
+Green-B,70152,Hynes Convention Center,70154,Copley,weekday,peak,148.91,69.57,89,126,288.9,576
+Green-E,70156,Arlington,70158,Boylston,sunday,offpeak,92.34,30.63,66,86,138,577
+Green-B,70126,Allston Street,70128,Griggs Street,weekday,peak,28.99,17.56,24,30,36,578
+Green-C,70152,Hynes Convention Center,70154,Copley,saturday,offpeak,115.34,42.01,83,102,189,579
+Green-E,70156,Arlington,70158,Boylston,weekday,peak,126.38,55.15,74,108,238.3,580
+Green-B,70126,Allston Street,70128,Griggs Street,sunday,offpeak,27.14,8.83,19,24,36,581
+Green-C,70152,Hynes Convention Center,70154,Copley,weekday,peak,147.33,70,88,123,293.35,582
+Green-B,70157,Arlington,70155,Copley,sunday,offpeak,55.79,17.16,43,52,83.75,583
+Green-B,70126,Allston Street,70128,Griggs Street,saturday,offpeak,28.21,10.78,21,25,36,584
+Green-C,70152,Hynes Convention Center,70154,Copley,weekday,offpeak,121.16,47.83,83,107,205,585
+Green-B,70157,Arlington,70155,Copley,saturday,offpeak,60.53,25.18,44,55,94,586
+Green-B,70126,Allston Street,70128,Griggs Street,weekday,offpeak,28.04,7.87,23,30,36,587
+Green-C,70152,Hynes Convention Center,70154,Copley,sunday,offpeak,107.43,29.63,83,99,157.05,588
+Green-B,70157,Arlington,70155,Copley,weekday,offpeak,64.98,24.08,46,59,100,589
+Green-D,70152,Hynes Convention Center,70154,Copley,weekday,peak,148.26,72.64,87,123,288.25,590
+Green-B,70127,Allston Street,70125,Warren Street,weekday,offpeak,25.32,43.96,16.25,23,54,591
+Green-B,70157,Arlington,70155,Copley,weekday,peak,73.84,34.58,48,64,119,592
+Green-D,70152,Hynes Convention Center,70154,Copley,weekday,offpeak,126.8,52.02,84,110,224,593
+Green-B,70127,Allston Street,70125,Warren Street,saturday,offpeak,24.41,29.83,15.45,18,36,594
+Green-C,70157,Arlington,70155,Copley,sunday,offpeak,57.18,16.87,44,54,80,595
+Green-D,70152,Hynes Convention Center,70154,Copley,saturday,offpeak,116.28,35.81,84,107,183.55,596
+Green-B,70127,Allston Street,70125,Warren Street,weekday,peak,25.08,15.87,16,23,54,597
+Green-C,70157,Arlington,70155,Copley,weekday,offpeak,63.52,40.64,45,58,95,598
+Green-D,70152,Hynes Convention Center,70154,Copley,sunday,offpeak,110.53,33.01,81,103,168,599
+Green-B,70127,Allston Street,70125,Warren Street,sunday,offpeak,22.03,15.16,16.55,18,30,600
+Green-C,70157,Arlington,70155,Copley,weekday,peak,70.68,35.26,47,61,118,601
+Green-C,70153,Hynes Convention Center,70151,Kenmore,weekday,peak,117.67,48.01,95,112,144.6,602
+Green-B,70128,Griggs Street,70130,Harvard Avenue,weekday,offpeak,32.73,13.74,24,30,42,603
+Green-C,70157,Arlington,70155,Copley,saturday,offpeak,60.27,30.55,44,55,91,604
+Green-C,70153,Hynes Convention Center,70151,Kenmore,sunday,offpeak,113.63,27.59,91,110,145,605
+Green-B,70128,Griggs Street,70130,Harvard Avenue,weekday,peak,33.88,15.85,24,30,42,606
+Green-D,70157,Arlington,70155,Copley,weekday,peak,71.47,33.59,46,61,125,607
+Green-D,70157,Arlington,70155,Copley,weekday,offpeak,64.19,25.28,45,58,100,608
+Green-D,70157,Arlington,70155,Copley,sunday,offpeak,58.11,23.37,43,54,85,609
+Green-D,70157,Arlington,70155,Copley,saturday,offpeak,60.04,20.66,43.7,55,95,610
+Green-E,70157,Arlington,70155,Copley,weekday,peak,73.69,35.98,48,63,124.65,611
+Green-E,70157,Arlington,70155,Copley,sunday,offpeak,57.65,18.51,43,53,89,612
+Green-E,70157,Arlington,70155,Copley,saturday,offpeak,60.79,23.63,43,55,98,613
+Green-E,70157,Arlington,70155,Copley,weekday,offpeak,63.36,46.3,46,57,96,614
+Green-B,70158,Boylston,70200,Park Street,saturday,offpeak,50,4.52,42.75,50,56.25,615
+Green-B,70158,Boylston,70200,Park Street,sunday,offpeak,51.29,6.84,43.95,51,60.3,616
+Green-C,70158,Boylston,70200,Park Street,saturday,offpeak,56.61,17.38,44,54,74.4,617
+Green-C,70158,Boylston,70200,Park Street,weekday,offpeak,59.43,24.41,45,56,77,618
+Green-C,70158,Boylston,70200,Park Street,sunday,offpeak,56.35,19.29,44,54,72.5,619
+Green-C,70158,Boylston,70200,Park Street,weekday,peak,62.09,24.26,46,58,83,620
+Green-D,70158,Boylston,70200,Park Street,saturday,offpeak,58.71,22.64,44,55,82,621
+Green-D,70158,Boylston,70200,Park Street,sunday,offpeak,58.27,33.18,44,55,73.05,622
+Green-D,70158,Boylston,70200,Park Street,weekday,peak,62.83,29.42,46,57,93,623
+Green-D,70158,Boylston,70200,Park Street,weekday,offpeak,60.57,27.89,45,56,85,624
+Green-E,70158,Boylston,70200,Park Street,weekday,peak,61.96,24.96,46,58,88,625
+Green-E,70158,Boylston,70200,Park Street,saturday,offpeak,57.06,21.35,43,54,75,626
+Green-E,70158,Boylston,70200,Park Street,weekday,offpeak,58.21,20.08,45,56,76,627
+Green-E,70158,Boylston,70200,Park Street,sunday,offpeak,57.91,22.16,44,55,76,628
+Green-D,70182,Longwood,70186,Fenway,saturday,offpeak,67.46,23.46,48,60,120,629
+Green-D,70182,Longwood,70186,Fenway,weekday,offpeak,65.2,19.16,48,60,96,630
+Green-D,70182,Longwood,70186,Fenway,weekday,peak,65.59,22.72,48,60,96,631
+Green-D,70182,Longwood,70186,Fenway,sunday,offpeak,64.37,22.46,43,60,108,632
+Green-D,70183,Longwood,70181,Brookline Village,weekday,peak,96.93,31.77,78,96,120,633
+Green-D,70183,Longwood,70181,Brookline Village,saturday,offpeak,95.69,13.43,78,96,120,634
+Green-C,70153,Hynes Convention Center,70151,Kenmore,saturday,offpeak,117.49,55.62,92,110,155,635
+Green-D,70183,Longwood,70181,Brookline Village,sunday,offpeak,94.26,26.49,78,91,114,636
+Green-B,70128,Griggs Street,70130,Harvard Avenue,sunday,offpeak,30.66,11.1,24,30,37,637
+Green-D,70183,Longwood,70181,Brookline Village,weekday,offpeak,98.21,35.06,78,96,122.8,638
+Green-C,70153,Hynes Convention Center,70151,Kenmore,weekday,offpeak,118.74,61.36,93,111,151,639
+Green-B,70128,Griggs Street,70130,Harvard Avenue,saturday,offpeak,32.52,13.96,24,30,42,640
+Green-D,70186,Fenway,70150,Kenmore,weekday,peak,157.85,38.68,106,155,217,641
+Green-D,70153,Hynes Convention Center,70151,Kenmore,weekday,offpeak,120.25,68.38,93,111,156,642
+Green-B,70129,Griggs Street,70127,Allston Street,sunday,offpeak,21,6.2,17,18,25,643
+Green-D,70186,Fenway,70150,Kenmore,saturday,offpeak,140.77,56.25,48,147,230,644
+Green-D,70153,Hynes Convention Center,70151,Kenmore,weekday,peak,119.13,61.95,91,110,151,645
+Green-B,70129,Griggs Street,70127,Allston Street,saturday,offpeak,22.5,21.33,17,20,30,646
+Green-D,70186,Fenway,70150,Kenmore,sunday,offpeak,134.42,55.17,48,143,212,647
+Green-D,70153,Hynes Convention Center,70151,Kenmore,saturday,offpeak,148.41,259.25,92,115,229,648
+Green-B,70129,Griggs Street,70127,Allston Street,weekday,offpeak,22.9,13.97,18,24,30,649
+Green-D,70186,Fenway,70150,Kenmore,weekday,offpeak,156.65,37.28,108,154,217,650
+Green-D,70153,Hynes Convention Center,70151,Kenmore,sunday,offpeak,120.92,48.38,89,112,170,651
+Green-B,70129,Griggs Street,70127,Allston Street,weekday,peak,22.18,7.45,18,24,30,652
+Green-D,70187,Fenway,70183,Longwood,weekday,offpeak,70.43,77.19,48,66,97,653
+Green-B,70154,Copley,70156,Arlington,weekday,peak,87.43,37.59,56,79,157.5,654
+Green-B,70154,Copley,70156,Arlington,weekday,offpeak,75.69,26.69,53,71,115.3,655
+Green-B,70154,Copley,70156,Arlington,saturday,offpeak,68.77,18.94,51,63,100,656
+Green-B,70154,Copley,70156,Arlington,sunday,offpeak,65.96,18.35,49,61,93.8,657
+Green-C,70154,Copley,70156,Arlington,sunday,offpeak,65.8,16.93,50,61,94,658
+Green-C,70154,Copley,70156,Arlington,weekday,peak,84.99,37.88,55,76,158.15,659
+Green-C,70154,Copley,70156,Arlington,saturday,offpeak,68.36,23.7,50,62,100,660
+Green-C,70154,Copley,70156,Arlington,weekday,offpeak,73.26,24.83,52,68,109,661
+Green-D,70154,Copley,70156,Arlington,saturday,offpeak,70.04,22.11,51,66,102,662
+Green-D,70154,Copley,70156,Arlington,weekday,offpeak,76.49,27.83,52,71,119,663
+Green-D,70154,Copley,70156,Arlington,weekday,peak,85.56,36.37,54,78,149,664
+Green-D,70154,Copley,70156,Arlington,sunday,offpeak,66.59,14.91,49,63,91,665
+Green-E,70154,Copley,70156,Arlington,sunday,offpeak,66.34,18.2,48,62,95,666
+Green-E,70154,Copley,70156,Arlington,saturday,offpeak,67.9,21.3,48.05,62.5,99.95,667
+Green-E,70154,Copley,70156,Arlington,weekday,offpeak,73.73,26.11,51,68,112,668
+Green-E,70154,Copley,70156,Arlington,weekday,peak,85.73,37.71,55,77,149,669
+Green-B,70155,Copley,70153,Hynes Convention Center,weekday,offpeak,99.69,54.39,78,96,126,670
+Green-B,70155,Copley,70153,Hynes Convention Center,sunday,offpeak,89.9,13.55,73,88,113,671
+Green-B,70155,Copley,70153,Hynes Convention Center,saturday,offpeak,94.46,24.31,75,91,121,672
+Green-B,70155,Copley,70153,Hynes Convention Center,weekday,peak,101.62,25.82,80,98,129,673
+Green-C,70155,Copley,70153,Hynes Convention Center,weekday,offpeak,97.46,24.76,77,95,123,674
+Green-C,70155,Copley,70153,Hynes Convention Center,weekday,peak,100.21,20.83,79,97,127,675
+Green-C,70155,Copley,70153,Hynes Convention Center,saturday,offpeak,92.95,16.23,73,90,120.2,676
+Green-C,70155,Copley,70153,Hynes Convention Center,sunday,offpeak,90.99,16.35,74,89,112,677
+Green-D,70155,Copley,70153,Hynes Convention Center,weekday,offpeak,97.84,28.07,76,94,126,678
+Green-D,70155,Copley,70153,Hynes Convention Center,saturday,offpeak,94.76,16.65,73.75,93,122.25,679
+Green-D,70155,Copley,70153,Hynes Convention Center,weekday,peak,97.78,23.74,76,95,125,680
+Green-D,70155,Copley,70153,Hynes Convention Center,sunday,offpeak,93.43,17.56,74,92,116.6,681
+Green-D,70187,Fenway,70183,Longwood,weekday,peak,69.22,34.39,48,66,102,682
+Green-D,70187,Fenway,70183,Longwood,sunday,offpeak,63.62,15.58,42,61,90,683
+Green-D,70187,Fenway,70183,Longwood,saturday,offpeak,70.05,53.43,48,66,92.9,684
+Green-B,70196,Park Street,70159,Boylston,weekday,peak,86.26,49.83,35,77,174,685
+Green-B,70196,Park Street,70159,Boylston,sunday,offpeak,54.64,32.56,31,42,114,686
+Green-B,70196,Park Street,70159,Boylston,saturday,offpeak,61.47,36.74,33,46,129,687
+Green-B,70196,Park Street,70159,Boylston,weekday,offpeak,71.35,56.66,34,53,149,688
+Green-C,70197,Park Street,70159,Boylston,weekday,offpeak,74.75,61.3,38,58,155,689
+Green-C,70197,Park Street,70159,Boylston,sunday,offpeak,60.63,35.08,37,49,114,690
+Green-C,70197,Park Street,70159,Boylston,saturday,offpeak,76.69,195.42,37,51,136,691
+Green-C,70197,Park Street,70159,Boylston,weekday,peak,90.54,54.34,41,76,189,692
+Green-D,70198,Park Street,70159,Boylston,weekday,offpeak,67.78,58.58,31,48,147,693
+Green-D,70198,Park Street,70159,Boylston,sunday,offpeak,52.23,30.1,31,44,102,694
+Green-D,70198,Park Street,70159,Boylston,saturday,offpeak,59.34,100.61,31,44,119,695
+Green-D,70198,Park Street,70159,Boylston,weekday,peak,76.89,53.21,32,56,167,696
+Green-E,70199,Park Street,70159,Boylston,sunday,offpeak,54.16,26.63,38,47,97.3,697
+Green-E,70199,Park Street,70159,Boylston,saturday,offpeak,57.52,29.42,38,48,113,698
+Green-E,70199,Park Street,70159,Boylston,weekday,offpeak,65.12,67.05,39,50,138,699
+Green-E,70199,Park Street,70159,Boylston,weekday,peak,78.83,49.49,40,56,173.8,700
+Green-B,70200,Park Street,70201,Government Center,sunday,offpeak,49.73,6.74,42.5,50,59.5,701
+Green-B,70200,Park Street,70201,Government Center,saturday,offpeak,51.69,5.08,46.25,50.5,60,702
+Green-C,70200,Park Street,70201,Government Center,sunday,offpeak,56.19,21.88,43,53,74,703
+Green-C,70200,Park Street,70201,Government Center,weekday,peak,60.56,22.97,45,56,83,704
+Green-C,70200,Park Street,70201,Government Center,saturday,offpeak,57.73,25.1,43,53,80.05,705
+Green-C,70200,Park Street,70201,Government Center,weekday,offpeak,58.9,46.41,45,55,78,706
+Green-D,70200,Park Street,70201,Government Center,sunday,offpeak,57.15,21.12,44,54,74.3,707
+Green-D,70200,Park Street,70201,Government Center,weekday,offpeak,57.62,22.19,44,54,78,708
+Green-D,70200,Park Street,70201,Government Center,weekday,peak,58.13,21.25,44,54,81,709
+Green-D,70200,Park Street,70201,Government Center,saturday,offpeak,58.33,28.37,44,54,77,710
+Green-E,70200,Park Street,70201,Government Center,saturday,offpeak,60.08,45.23,43,52,82,711
+Green-E,70200,Park Street,70201,Government Center,weekday,offpeak,60,41.28,45,54,80,712
+Green-E,70200,Park Street,70201,Government Center,sunday,offpeak,57.61,35.81,43,52,76,713
+Green-E,70200,Park Street,70201,Government Center,weekday,peak,59.21,20.72,45,55,83,714
+Green-B,70201,Government Center,70203,Haymarket,sunday,offpeak,73,7.35,64.1,76.5,77,715
+Green-B,70201,Government Center,70203,Haymarket,saturday,offpeak,77.21,7.59,71.65,75,90.9,716
+Green-C,70201,Government Center,70203,Haymarket,saturday,offpeak,91,25.56,54,91,133,717
+Green-C,70201,Government Center,70203,Haymarket,sunday,offpeak,87.91,23.21,54,89,122,718
+Green-B,70159,Boylston,70157,Arlington,saturday,offpeak,98.23,23.03,80,95,120,719
+Green-B,70130,Harvard Avenue,70134,Packards Corner,weekday,offpeak,76.05,17.42,60,72,96,720
+Green-B,70159,Boylston,70157,Arlington,weekday,peak,110.59,35.24,85,105,147,721
+Green-B,70159,Boylston,70157,Arlington,weekday,offpeak,105.72,57.47,83,101,135,722
+Green-B,70159,Boylston,70157,Arlington,sunday,offpeak,94.22,18.87,77,91,117,723
+Green-C,70159,Boylston,70157,Arlington,weekday,peak,109.67,33.6,85,103,146,724
+Green-C,70159,Boylston,70157,Arlington,sunday,offpeak,98.24,25.98,79,95,119,725
+Green-C,70159,Boylston,70157,Arlington,saturday,offpeak,98.56,30.64,79,95,121,726
+Green-C,70159,Boylston,70157,Arlington,weekday,offpeak,105.11,46.93,83,101,135,727
+Green-B,70130,Harvard Avenue,70134,Packards Corner,weekday,peak,77.3,15.61,60,73,102,728
+Green-D,70159,Boylston,70157,Arlington,weekday,peak,107.87,40.7,84,101,138,729
+Green-B,70130,Harvard Avenue,70134,Packards Corner,sunday,offpeak,72.1,14.17,60,72,90,730
+Green-D,70159,Boylston,70157,Arlington,sunday,offpeak,100.31,29.36,79,97,125,731
+Green-B,70130,Harvard Avenue,70134,Packards Corner,saturday,offpeak,73.84,17.34,60,72,96,732
+Green-D,70159,Boylston,70157,Arlington,saturday,offpeak,100.15,26.85,80,97,121,733
+Green-B,70131,Harvard Avenue,70129,Griggs Street,weekday,offpeak,38.86,22.26,30,36,49,734
+Green-D,70159,Boylston,70157,Arlington,weekday,offpeak,106.14,81.95,82,100,135,735
+Green-B,70131,Harvard Avenue,70129,Griggs Street,sunday,offpeak,36.85,10.66,30,36,48,736
+Green-E,70159,Boylston,70157,Arlington,saturday,offpeak,98.95,20.58,81,96,120,737
+Green-B,70131,Harvard Avenue,70129,Griggs Street,weekday,peak,38.62,7.12,30,36,48,738
+Green-E,70159,Boylston,70157,Arlington,weekday,peak,107.51,31.02,87,102,138.45,739
+Green-B,70131,Harvard Avenue,70129,Griggs Street,saturday,offpeak,38.05,9.92,30,36,50.4,740
+Green-E,70159,Boylston,70157,Arlington,weekday,offpeak,103.89,38.54,85,100,131,741
+Green-B,70134,Packards Corner,70136,Babcock Street,saturday,offpeak,47.32,11.15,36,48,66,742
+Green-E,70159,Boylston,70157,Arlington,sunday,offpeak,98.77,19.39,80,97,119,743
+Green-D,70160,Riverside,70162,Woodland,weekday,offpeak,69.07,17.42,54,66,90,744
+Green-B,70134,Packards Corner,70136,Babcock Street,weekday,peak,50.76,20.08,36,48,72,745
+Green-D,70160,Riverside,70162,Woodland,saturday,offpeak,69.42,28.77,54,66,84,746
+Green-B,70134,Packards Corner,70136,Babcock Street,sunday,offpeak,45.52,10.78,36,42,60,747
+Green-D,70160,Riverside,70162,Woodland,sunday,offpeak,67.93,18.94,54,66,84,748
+Green-D,70160,Riverside,70162,Woodland,weekday,peak,68.72,15.81,54,66,84,749
+Green-D,70162,Woodland,70164,Waban,sunday,offpeak,134.2,26.4,90,138,174,750
+Green-D,70162,Woodland,70164,Waban,weekday,peak,132.28,28.26,90,132,174,751
+Green-D,70162,Woodland,70164,Waban,saturday,offpeak,135.05,26.86,90,138,175,752
+Green-D,70162,Woodland,70164,Waban,weekday,offpeak,135.23,28.27,90,138,180,753
+Green-D,70163,Woodland,70161,Riverside,sunday,offpeak,104.59,71.16,67,90,180,754
+Green-D,70163,Woodland,70161,Riverside,saturday,offpeak,106.16,58.29,72,91,187,755
+Green-D,70163,Woodland,70161,Riverside,weekday,peak,126.66,100.02,66,90,325,756
+Green-D,70163,Woodland,70161,Riverside,weekday,offpeak,130.35,100,72,96,336,757
+Green-D,70164,Waban,70166,Eliot,weekday,peak,100.5,20.35,81,97,126,758
+Green-D,70164,Waban,70166,Eliot,weekday,offpeak,106.49,34.15,82,102,163,759
+Green-D,70164,Waban,70166,Eliot,sunday,offpeak,101.42,24.53,78,98.5,126,760
+Green-D,70164,Waban,70166,Eliot,saturday,offpeak,102.9,87.28,79,98.5,126,761
+Green-D,70165,Waban,70163,Woodland,sunday,offpeak,99.37,72.67,78,90,120,762
+Green-D,70165,Waban,70163,Woodland,weekday,offpeak,102.41,49.38,78,91,145,763
+Green-D,70165,Waban,70163,Woodland,weekday,peak,97.49,42.71,78,90,132,764
+Green-D,70165,Waban,70163,Woodland,saturday,offpeak,95.64,48.5,78,90,110,765
+Green-D,70166,Eliot,70168,Newton Highlands,weekday,offpeak,118.17,62.2,84,102,204,766
+Green-D,70166,Eliot,70168,Newton Highlands,weekday,peak,102.85,31.82,79,97,133,767
+Green-D,70166,Eliot,70168,Newton Highlands,saturday,offpeak,180.8,79.34,85,180,331,768
+Green-D,70166,Eliot,70168,Newton Highlands,sunday,offpeak,174.74,73.09,84,174,296,769
+Green-D,70167,Eliot,70165,Waban,weekday,peak,87.63,24.04,78,84,108,770
+Green-D,70167,Eliot,70165,Waban,weekday,offpeak,92.09,29.35,78,85,121,771
+Green-D,70167,Eliot,70165,Waban,saturday,offpeak,87.56,38.32,78,84,102,772
+Green-D,70167,Eliot,70165,Waban,sunday,offpeak,87.38,34.68,78,84,103,773
+Green-D,70168,Newton Highlands,70170,Newton Centre,weekday,peak,90.68,24.39,78,90,108,774
+Green-D,70168,Newton Highlands,70170,Newton Centre,sunday,offpeak,87.53,11.3,78,84,108,775
+Green-D,70168,Newton Highlands,70170,Newton Centre,saturday,offpeak,87.92,10.93,78,85,102,776
+Green-D,70168,Newton Highlands,70170,Newton Centre,weekday,offpeak,89.9,13.11,78,89,112.35,777
+Green-D,70169,Newton Highlands,70167,Eliot,sunday,offpeak,86.56,14.51,72,84,114,778
+Green-D,70169,Newton Highlands,70167,Eliot,saturday,offpeak,86.17,14.75,72,84,109,779
+Green-B,70134,Packards Corner,70136,Babcock Street,weekday,offpeak,49.27,15.72,36,48,66,780
+Green-B,70135,Packards Corner,70131,Harvard Avenue,weekday,peak,61.56,21.24,48,60,84,781
+Green-B,70135,Packards Corner,70131,Harvard Avenue,sunday,offpeak,58.19,27.93,42,54,78,782
+Green-B,70135,Packards Corner,70131,Harvard Avenue,saturday,offpeak,60.34,26.08,46,54,78,783
+Green-B,70135,Packards Corner,70131,Harvard Avenue,weekday,offpeak,62.46,42.51,48,60,85,784
+Green-B,70136,Babcock Street,70138,Pleasant Street,weekday,offpeak,21.72,13.81,12,18,30,785
+Green-B,70136,Babcock Street,70138,Pleasant Street,sunday,offpeak,21.5,20.59,12,18,30,786
+Green-B,70136,Babcock Street,70138,Pleasant Street,saturday,offpeak,21.5,8.24,12,18,30,787
+Green-B,70136,Babcock Street,70138,Pleasant Street,weekday,peak,22.48,10.23,12,19,31.7,788
+Green-B,70137,Babcock Street,70135,Packards Corner,sunday,offpeak,82.12,39.34,36,78,138,789
+Green-B,70137,Babcock Street,70135,Packards Corner,weekday,offpeak,88.84,43.05,42,84,144,790
+Green-B,70137,Babcock Street,70135,Packards Corner,weekday,peak,92.47,42.3,42,90,150,791
+Green-B,70137,Babcock Street,70135,Packards Corner,saturday,offpeak,85.25,40.29,42,80,139,792
+Green-B,70138,Pleasant Street,70140,Saint Paul Street,sunday,offpeak,22.03,5.74,18,24,30,793
+Green-B,70138,Pleasant Street,70140,Saint Paul Street,weekday,offpeak,23.38,7.91,18,24,31,794
+Green-B,70138,Pleasant Street,70140,Saint Paul Street,saturday,offpeak,22.99,7.51,18,24,30,795
+Green-B,70138,Pleasant Street,70140,Saint Paul Street,weekday,peak,24.49,10.51,18,24,36,796
+Green-B,70139,Pleasant Street,70137,Babcock Street,weekday,offpeak,45.58,51.16,18,36,84,797
+Green-B,70139,Pleasant Street,70137,Babcock Street,saturday,offpeak,44.96,38.1,18,36,84,798
+Green-B,70139,Pleasant Street,70137,Babcock Street,sunday,offpeak,43.42,25.68,18,42,78,799
+Green-B,70139,Pleasant Street,70137,Babcock Street,weekday,peak,47.08,42.16,18,42,88.7,800
+Green-C,70230,Washington Square,70228,Fairbanks Street,saturday,offpeak,28.52,5.89,18,30,36,801
+Green-C,70231,Tappan Street,70233,Dean Road,weekday,offpeak,26.8,10.53,18,24,42,802
+Green-C,70231,Tappan Street,70233,Dean Road,weekday,peak,26.28,18.91,18,24,42,803
+Green-C,70231,Tappan Street,70233,Dean Road,saturday,offpeak,30.94,24.46,18,24,56.75,804
+Mattapan,70261,Ashmont,70263,Cedar Grove,sunday,offpeak,51.02,33.35,36,48,64,805
+Green-C,70231,Tappan Street,70233,Dean Road,sunday,offpeak,29.76,14.73,18,24,55,806
+Mattapan,70261,Ashmont,70263,Cedar Grove,weekday,offpeak,52.58,34.06,36,48,66,807
+Green-C,70232,Tappan Street,70230,Washington Square,sunday,offpeak,71.77,24.37,42,66,114,808
+Mattapan,70261,Ashmont,70263,Cedar Grove,weekday,peak,51.47,30.5,36,48,64,809
+Green-C,70232,Tappan Street,70230,Washington Square,saturday,offpeak,72.54,25.43,42,68,114,810
+Mattapan,70263,Cedar Grove,70265,Butler,sunday,offpeak,103.7,56.13,80,96,120,811
+Green-C,70206,North Station,70204,Haymarket,weekday,peak,67.16,41.34,50,58,109,812
+Green-C,70201,Government Center,70203,Haymarket,weekday,offpeak,92.85,17.75,73,91,118.25,813
+Green-C,70232,Tappan Street,70230,Washington Square,weekday,peak,69.56,22.67,42,66,108,814
+Mattapan,70263,Cedar Grove,70265,Butler,weekday,offpeak,114.31,87.28,84,104,136,815
+Green-C,70206,North Station,70204,Haymarket,saturday,offpeak,71.04,40.23,50,59,120.8,816
+Green-C,70215,Kent Street,70217,Saint Paul Street,weekday,peak,28.84,24.46,18,24,48,817
+Green-E,70246,Museum of Fine Arts,70244,Northeastern University,weekday,offpeak,105.79,34.19,60,102,163,818
+Green-C,70201,Government Center,70203,Haymarket,weekday,peak,101.12,18.81,80,99,131,819
+Green-C,70232,Tappan Street,70230,Washington Square,weekday,offpeak,67.39,22.89,42,66,104,820
+Mattapan,70263,Cedar Grove,70265,Butler,weekday,peak,111.35,59.83,84,104,134,821
+Green-C,70206,North Station,70204,Haymarket,sunday,offpeak,69.93,34.74,51,59,115.8,822
+Green-C,70215,Kent Street,70217,Saint Paul Street,weekday,offpeak,30.08,41.45,18,24,54,823
+Green-E,70246,Museum of Fine Arts,70244,Northeastern University,weekday,peak,107.72,35.18,60,102,174,824
+Green-D,70201,Government Center,70203,Haymarket,weekday,offpeak,88.36,18.76,71,87,111.8,825
+Green-C,70233,Dean Road,70235,Englewood Avenue,saturday,offpeak,55.17,21.42,30,54,90,826
+Mattapan,70263,Cedar Grove,70265,Butler,saturday,offpeak,105.03,53.08,78,102,128,827
+Green-C,70206,North Station,70204,Haymarket,weekday,offpeak,64.73,65.76,47,57,102,828
+Green-C,70215,Kent Street,70217,Saint Paul Street,saturday,offpeak,30.43,24.54,18,24,60,829
+Green-E,70247,Longwood Medical Area,70249,Brigham Circle,sunday,offpeak,87.97,95.54,47,60,309.8,830
+Green-E,70201,Government Center,70203,Haymarket,weekday,peak,103.09,25.29,64,101,140,831
+Green-C,70233,Dean Road,70235,Englewood Avenue,sunday,offpeak,54.36,18.26,30,54,90,832
+Mattapan,70265,Butler,70267,Milton,sunday,offpeak,60.22,40.34,43.1,56,72,833
+Green-D,70206,North Station,70204,Haymarket,weekday,offpeak,61.78,42.8,51.65,58,76,834
+Green-C,70215,Kent Street,70217,Saint Paul Street,sunday,offpeak,29.71,23.76,18,24,54,835
+Green-E,70247,Longwood Medical Area,70249,Brigham Circle,saturday,offpeak,74.67,67.96,45,60,212.2,836
+Green-E,70201,Government Center,70203,Haymarket,weekday,offpeak,93.37,21.16,68,91,123,837
+Green-C,70233,Dean Road,70235,Englewood Avenue,weekday,peak,54.3,19.35,30,48,90,838
+Mattapan,70265,Butler,70267,Milton,weekday,peak,64.79,36.83,48,61,84,839
+Green-E,70206,North Station,70204,Haymarket,sunday,offpeak,62.71,18.02,51,56,97,840
+Green-C,70216,Kent Street,70214,Hawes Street,sunday,offpeak,29.22,15.71,23,30,37,841
+Green-E,70247,Longwood Medical Area,70249,Brigham Circle,weekday,offpeak,72.51,86.61,48,60,114,842
+Green-E,70201,Government Center,70203,Haymarket,sunday,offpeak,93.71,25.81,54,93,129.35,843
+Green-E,70201,Government Center,70203,Haymarket,saturday,offpeak,96.63,27.7,55,95,142,844
+Green-B,70202,Government Center,70196,Park Street,saturday,offpeak,108.81,15.25,90.5,108,135.25,845
+Green-B,70202,Government Center,70196,Park Street,sunday,offpeak,89.18,5.48,79.8,90,98,846
+Green-C,70202,Government Center,70197,Park Street,saturday,offpeak,102.15,21.77,81,99,137,847
+Green-C,70202,Government Center,70197,Park Street,sunday,offpeak,103.53,25.16,83,99,139.8,848
+Green-C,70202,Government Center,70197,Park Street,weekday,offpeak,114.56,77.94,85,103,180,849
+Green-C,70202,Government Center,70197,Park Street,weekday,peak,115.34,43.26,86,103,190,850
+Green-D,70202,Government Center,70198,Park Street,weekday,peak,114.76,48.17,78,99,210,851
+Green-D,70202,Government Center,70198,Park Street,weekday,offpeak,114.42,48.1,78,98,205.45,852
+Green-D,70202,Government Center,70198,Park Street,saturday,offpeak,101.64,30.36,78,95,149.3,853
+Green-D,70202,Government Center,70198,Park Street,sunday,offpeak,104.73,25.82,80.65,97,153,854
+Green-E,70202,Government Center,70199,Park Street,weekday,peak,114.4,40.02,87,103,182.05,855
+Green-E,70202,Government Center,70199,Park Street,weekday,offpeak,110.65,54.39,84,101,168,856
+Green-E,70202,Government Center,70199,Park Street,saturday,offpeak,102.78,28.22,80,99,135,857
+Green-E,70202,Government Center,70199,Park Street,sunday,offpeak,103.83,27.07,82,100,137,858
+Green-B,70203,Haymarket,70205,North Station,sunday,offpeak,53.75,8.14,45.05,54,62.1,859
+Green-B,70203,Haymarket,70205,North Station,saturday,offpeak,58.85,12.21,43.4,57,81.2,860
+Green-C,70203,Haymarket,70205,North Station,weekday,peak,78.58,66.02,48,63,148,861
+Green-C,70203,Haymarket,70205,North Station,saturday,offpeak,68.05,55.48,45,59,100.6,862
+Green-C,70203,Haymarket,70205,North Station,sunday,offpeak,66.65,52.85,45,59,92,863
+Green-C,70203,Haymarket,70205,North Station,weekday,offpeak,75.95,73.85,46,61,135.2,864
+Green-D,70203,Haymarket,70205,North Station,weekday,offpeak,83.57,76.02,48,62,159.7,865
+Green-E,70203,Haymarket,70205,North Station,weekday,offpeak,75.87,75.13,44,62,137,866
+Green-E,70203,Haymarket,70205,North Station,weekday,peak,77.93,60.09,46,64,145.45,867
+Green-E,70203,Haymarket,70205,North Station,sunday,offpeak,79.61,113.2,44,61,110,868
+Green-E,70203,Haymarket,70205,North Station,saturday,offpeak,78.09,99.89,44,60,127,869
+Green-B,70204,Haymarket,70202,Government Center,saturday,offpeak,69.58,12.53,56.55,67,87.2,870
+Green-B,70204,Haymarket,70202,Government Center,sunday,offpeak,61.08,9.04,53.2,60,74.8,871
+Green-C,70204,Haymarket,70202,Government Center,weekday,peak,78.5,39.92,54,68,142.45,872
+Green-C,70204,Haymarket,70202,Government Center,weekday,offpeak,71.45,30.52,53,65,115,873
+Green-C,70204,Haymarket,70202,Government Center,saturday,offpeak,68.92,35.08,52,63,108,874
+Green-C,70204,Haymarket,70202,Government Center,sunday,offpeak,67.99,32.58,53,63,99,875
+Green-D,70204,Haymarket,70202,Government Center,weekday,offpeak,71.93,15.94,54.3,70,103.8,876
+Green-E,70204,Haymarket,70202,Government Center,weekday,peak,73.97,33.78,54,66,125,877
+Green-E,70204,Haymarket,70202,Government Center,saturday,offpeak,68.07,32.77,53,63,96,878
+Green-E,70204,Haymarket,70202,Government Center,weekday,offpeak,68.43,28.65,53,63,102,879
+Green-E,70204,Haymarket,70202,Government Center,sunday,offpeak,65.86,14.78,54,63,91,880
+Green-B,70205,North Station,70207,Science Park,sunday,offpeak,144,1.41,143.1,144,144.9,881
+Green-B,70205,North Station,70207,Science Park,saturday,offpeak,122.25,10.53,110.1,124,131.95,882
+Green-C,70205,North Station,70207,Science Park,saturday,offpeak,187.64,62.29,121.25,171.5,295.4,883
+Green-C,70205,North Station,70207,Science Park,sunday,offpeak,160.56,15.11,139.8,159,181.6,884
+Green-C,70205,North Station,70207,Science Park,weekday,offpeak,137.11,26.64,96.2,133,183.5,885
+Green-D,70205,North Station,70207,Science Park,weekday,offpeak,160.46,62.84,104,142.5,269.25,886
+Green-E,70205,North Station,70207,Science Park,sunday,offpeak,159.43,42.19,115,152,232.55,887
+Green-E,70205,North Station,70207,Science Park,saturday,offpeak,163.85,47.15,115,153,259,888
+Green-E,70205,North Station,70207,Science Park,weekday,peak,164.05,49.25,112,152,256,889
+Green-E,70205,North Station,70207,Science Park,weekday,offpeak,162.42,49.69,113,150,257,890
+Green-B,70206,North Station,70204,Haymarket,saturday,offpeak,67.18,30.93,52,57,115,891
+Green-B,70206,North Station,70204,Haymarket,sunday,offpeak,67.62,45.62,52.6,54,127.2,892
+Mattapan,70265,Butler,70267,Milton,saturday,offpeak,60.53,29.01,47,60,77.9,893
+Green-C,70233,Dean Road,70235,Englewood Avenue,weekday,offpeak,55.49,59.04,30,48,90,894
+Mattapan,70265,Butler,70267,Milton,weekday,offpeak,62.1,41,42,60,79,895
+Green-C,70234,Dean Road,70232,Tappan Street,weekday,peak,41.2,11.46,30,37,60,896
+Mattapan,70266,Butler,70264,Cedar Grove,weekday,offpeak,108.99,22.35,79,108,139,897
+Green-E,70247,Longwood Medical Area,70249,Brigham Circle,weekday,peak,86.38,85.66,48,61,278.1,898
+Green-C,70216,Kent Street,70214,Hawes Street,weekday,offpeak,28.95,14.88,22,30,37,899
+Green-C,70234,Dean Road,70232,Tappan Street,sunday,offpeak,47.9,21.65,30,42,90,900
+Green-C,70234,Dean Road,70232,Tappan Street,saturday,offpeak,46.83,20.73,30,42,84,901
+Green-E,70206,North Station,70204,Haymarket,weekday,peak,61.59,30.07,51,56,94,902
+Green-C,70216,Kent Street,70214,Hawes Street,saturday,offpeak,28.35,12.31,23,30,36,903
+Green-C,70234,Dean Road,70232,Tappan Street,weekday,offpeak,41.45,14.55,30,36,60,904
+Green-E,70206,North Station,70204,Haymarket,weekday,offpeak,60.16,59.01,49,55,80,905
+Green-E,70248,Longwood Medical Area,70246,Museum of Fine Arts,weekday,peak,97.7,34.06,60,85,157,906
+Mattapan,70266,Butler,70264,Cedar Grove,weekday,peak,109.46,45.3,79,108,141,907
+Green-C,70216,Kent Street,70214,Hawes Street,weekday,peak,28.75,14.6,21,30,36,908
+Green-C,70235,Englewood Avenue,70237,Cleveland Circle,weekday,peak,48.53,47.16,30,42,95.1,909
+Green-E,70206,North Station,70204,Haymarket,saturday,offpeak,62.36,24.63,51,56,96,910
+Green-E,70248,Longwood Medical Area,70246,Museum of Fine Arts,weekday,offpeak,94.62,27.4,54,91,144,911
+Mattapan,70266,Butler,70264,Cedar Grove,saturday,offpeak,100.87,20.62,78,102,126.35,912
+Green-C,70217,Saint Paul Street,70219,Coolidge Corner,weekday,offpeak,66.33,65.75,36,49,120,913
+Green-C,70235,Englewood Avenue,70237,Cleveland Circle,weekday,offpeak,60.98,65.19,30,42,180,914
+Green-B,70207,Science Park,70209,Lechmere,saturday,offpeak,126.5,21.21,102.45,129.5,146.35,915
+Green-E,70248,Longwood Medical Area,70246,Museum of Fine Arts,saturday,offpeak,96.6,25.79,54,96,132,916
+Mattapan,70266,Butler,70264,Cedar Grove,sunday,offpeak,99.73,58.33,76,96,120,917
+Green-C,70217,Saint Paul Street,70219,Coolidge Corner,weekday,peak,68.48,32.26,36,60,120,918
+Green-C,70235,Englewood Avenue,70237,Cleveland Circle,saturday,offpeak,57.36,55.81,30,42,169,919
+Green-B,70207,Science Park,70209,Lechmere,sunday,offpeak,110.17,12.54,94.85,108,128.75,920
+Green-E,70248,Longwood Medical Area,70246,Museum of Fine Arts,sunday,offpeak,97.93,25.77,60,97,132,921
+Mattapan,70267,Milton,70269,Central Avenue,weekday,offpeak,46.65,40.58,36,42,56,922
+Green-C,70217,Saint Paul Street,70219,Coolidge Corner,saturday,offpeak,71.17,33.34,36,66,126,923
+Green-C,70235,Englewood Avenue,70237,Cleveland Circle,sunday,offpeak,57.49,60.51,30,42,156.9,924
+Green-C,70207,Science Park,70209,Lechmere,weekday,offpeak,103.85,13.61,78.3,106,120,925
+Green-E,70249,Brigham Circle,70251,Fenwood Road,sunday,offpeak,23.85,11.23,16,23,43,926
+Mattapan,70267,Milton,70269,Central Avenue,weekday,peak,46.42,30.33,36,42,56,927
+Green-C,70217,Saint Paul Street,70219,Coolidge Corner,sunday,offpeak,69.57,29.86,36,66,127.7,928
+Green-C,70236,Englewood Avenue,70234,Dean Road,weekday,offpeak,25.23,10.23,18,24,36,929
+Green-C,70207,Science Park,70209,Lechmere,saturday,offpeak,133.36,21.75,114.95,128,164,930
+Green-E,70249,Brigham Circle,70251,Fenwood Road,saturday,offpeak,24.95,21.41,16.25,23,48,931
+Mattapan,70267,Milton,70269,Central Avenue,saturday,offpeak,51.37,176.14,35,42,50,932
+Green-C,70218,Saint Paul Street,70216,Kent Street,saturday,offpeak,26.1,17.23,18,24,36,933
+Green-C,70236,Englewood Avenue,70234,Dean Road,sunday,offpeak,26.18,8.15,18,24,41.55,934
+Green-C,70207,Science Park,70209,Lechmere,sunday,offpeak,119.1,11.61,101.95,123,132.2,935
+Green-E,70249,Brigham Circle,70251,Fenwood Road,weekday,offpeak,26.28,17.68,13,24,48,936
+Green-E,70249,Brigham Circle,70251,Fenwood Road,weekday,peak,29.98,21.65,17,24,55,937
+Green-E,70250,Brigham Circle,70248,Longwood Medical Area,saturday,offpeak,56.8,17.1,36,54,90,938
+Green-E,70250,Brigham Circle,70248,Longwood Medical Area,sunday,offpeak,56.07,16.79,36,52,90,939
+Green-E,70250,Brigham Circle,70248,Longwood Medical Area,weekday,peak,66.2,25.83,36,61,106,940
+Green-E,70250,Brigham Circle,70248,Longwood Medical Area,weekday,offpeak,59.71,21.16,36,54,94,941
+Green-E,70251,Fenwood Road,70253,Mission Park,saturday,offpeak,51.01,27.82,30,42,84,942
+Green-E,70251,Fenwood Road,70253,Mission Park,weekday,peak,58.95,28.59,30,54,108,943
+Green-E,70251,Fenwood Road,70253,Mission Park,weekday,offpeak,53.33,31.43,30,44,90,944
+Green-E,70251,Fenwood Road,70253,Mission Park,sunday,offpeak,50.45,20.81,30,42,85,945
+Green-E,70252,Fenwood Road,70250,Brigham Circle,sunday,offpeak,29.62,15.58,18,27,42,946
+Green-E,70252,Fenwood Road,70250,Brigham Circle,saturday,offpeak,29.89,15.66,18,25,54,947
+Green-E,70252,Fenwood Road,70250,Brigham Circle,weekday,offpeak,29.71,18.47,18,30,42,948
+Green-E,70252,Fenwood Road,70250,Brigham Circle,weekday,peak,32.33,20.35,18,30,66,949
+Green-E,70253,Mission Park,70255,Riverway,weekday,offpeak,104.02,56.28,66,79,183,950
+Green-E,70253,Mission Park,70255,Riverway,weekday,peak,138.67,63.56,66,121,235,951
+Green-E,70253,Mission Park,70255,Riverway,saturday,offpeak,91.15,42.24,65,78,169,952
+Green-E,70253,Mission Park,70255,Riverway,sunday,offpeak,89.3,41.34,62.55,78,162,953
+Green-E,70254,Mission Park,70252,Fenwood Road,saturday,offpeak,111.57,36.22,66,108,169,954
+Green-E,70254,Mission Park,70252,Fenwood Road,sunday,offpeak,110.26,33.88,66,108,163,955
+Green-E,70254,Mission Park,70252,Fenwood Road,weekday,offpeak,118.94,43.08,66,114,198,956
+Green-E,70254,Mission Park,70252,Fenwood Road,weekday,peak,140.94,45.54,84,134,228,957
+Green-E,70255,Riverway,70257,Back of the Hill,sunday,offpeak,43.46,40.52,25,36,72,958
+Green-E,70255,Riverway,70257,Back of the Hill,saturday,offpeak,43.13,15.06,24,36,72,959
+Green-E,70255,Riverway,70257,Back of the Hill,weekday,offpeak,44.04,19.73,24,42,71.75,960
+Green-E,70255,Riverway,70257,Back of the Hill,weekday,peak,49.16,25.24,30,42,79.45,961
+Green-E,70256,Riverway,70254,Mission Park,saturday,offpeak,40.02,32.75,30,36,54,962
+Green-E,70256,Riverway,70254,Mission Park,sunday,offpeak,39.59,47.41,30,36,48,963
+Green-E,70256,Riverway,70254,Mission Park,weekday,offpeak,40.28,19.02,30,36,60,964
+Green-E,70256,Riverway,70254,Mission Park,weekday,peak,45.62,21.46,29.4,42,73.6,965
+Green-E,70257,Back of the Hill,70260,Heath Street,sunday,offpeak,36.81,42.41,24,30,53,966
+Green-E,70257,Back of the Hill,70260,Heath Street,saturday,offpeak,34.6,21.47,24,30,53,967
+Green-E,70257,Back of the Hill,70260,Heath Street,weekday,peak,34.89,19.72,23,30,55,968
+Green-E,70257,Back of the Hill,70260,Heath Street,weekday,offpeak,35.24,30.99,24,30,53,969
+Green-E,70258,Back of the Hill,70256,Riverway,weekday,peak,121.44,77.12,32,108,258,970
+Green-E,70258,Back of the Hill,70256,Riverway,saturday,offpeak,50.13,125.22,29,36,102.45,971
+Green-E,70258,Back of the Hill,70256,Riverway,sunday,offpeak,46.46,32.8,29,36,96,972
+Green-E,70258,Back of the Hill,70256,Riverway,weekday,offpeak,54.66,41.73,24,42,144,973
+Green-E,70260,Heath Street,70258,Back of the Hill,saturday,offpeak,28.73,9.64,18,24,48,974
+Green-E,70260,Heath Street,70258,Back of the Hill,sunday,offpeak,29.94,17.99,18,25,48,975
+Green-E,70260,Heath Street,70258,Back of the Hill,weekday,offpeak,29.58,11.23,18,25,54,976
+Green-E,70260,Heath Street,70258,Back of the Hill,weekday,peak,38.79,23.29,18,30,79.05,977
+Mattapan,70261,Ashmont,70263,Cedar Grove,saturday,offpeak,49.76,23.26,36,48,64,978
+Green-C,70218,Saint Paul Street,70216,Kent Street,sunday,offpeak,26.68,28.82,18,24,36,979
+Green-D,70207,Science Park,70209,Lechmere,weekday,offpeak,93.02,18.21,56.9,94,117.4,980
+Green-C,70236,Englewood Avenue,70234,Dean Road,weekday,peak,25.12,6.85,18,24,31,981
+Green-C,70218,Saint Paul Street,70216,Kent Street,weekday,offpeak,25.68,15.79,18,24,36,982
+Mattapan,70267,Milton,70269,Central Avenue,sunday,offpeak,42.79,21.7,32,42,54,983
+Green-E,70207,Science Park,70209,Lechmere,weekday,peak,102.62,23.53,83,101,124,984
+Green-C,70236,Englewood Avenue,70234,Dean Road,saturday,offpeak,26.17,8.28,18,24,36,985
+Green-E,70239,Prudential,70241,Symphony,weekday,peak,53.61,12.41,39,52,70,986
+Green-E,70239,Prudential,70241,Symphony,saturday,offpeak,52.77,25.95,35,51,70,987
+Green-E,70239,Prudential,70241,Symphony,sunday,offpeak,54.17,19.59,36,53,71,988
+Green-E,70239,Prudential,70241,Symphony,weekday,offpeak,52.59,15.14,36,51,69,989
+Green-E,70240,Prudential,70154,Copley,weekday,offpeak,89.75,37.7,61,76,156,990
+Green-E,70240,Prudential,70154,Copley,weekday,peak,107.5,50.96,62,90,198,991
+Green-E,70240,Prudential,70154,Copley,saturday,offpeak,88,39.69,60,74,164,992
+Green-E,70240,Prudential,70154,Copley,sunday,offpeak,81.94,28.15,60,74,133.7,993
+Green-E,70241,Symphony,70243,Northeastern University,weekday,peak,91.9,116.08,50,65,173.95,994
+Green-E,70241,Symphony,70243,Northeastern University,weekday,offpeak,91.87,120.94,48,64,174.95,995
+Green-E,70241,Symphony,70243,Northeastern University,saturday,offpeak,105.56,147.26,45,63,633,996
+Green-E,70241,Symphony,70243,Northeastern University,sunday,offpeak,124.33,176.82,45.25,64,649,997
+Green-E,70242,Symphony,70240,Prudential,weekday,peak,44.82,11.18,32,44,60,998
+Green-E,70242,Symphony,70240,Prudential,saturday,offpeak,48.84,146.99,31,42,58,999
+Green-E,70242,Symphony,70240,Prudential,sunday,offpeak,44.38,11.02,32,44,60,1000
+Green-E,70242,Symphony,70240,Prudential,weekday,offpeak,43.4,11.3,32,43,57,1001
+Green-E,70243,Northeastern University,70245,Museum of Fine Arts,saturday,offpeak,92.48,197.46,54,72,132,1002
+Green-E,70243,Northeastern University,70245,Museum of Fine Arts,sunday,offpeak,80.62,24.67,54,72,132,1003
+Green-E,70243,Northeastern University,70245,Museum of Fine Arts,weekday,offpeak,83.34,31.06,54,77,138,1004
+Green-E,70243,Northeastern University,70245,Museum of Fine Arts,weekday,peak,88.73,31.7,54,81.5,145,1005
+Green-E,70244,Northeastern University,70242,Symphony,weekday,peak,41.61,14.83,27.7,39,64,1006
+Green-E,70244,Northeastern University,70242,Symphony,weekday,offpeak,41.29,15.19,27,39,67,1007
+Green-E,70244,Northeastern University,70242,Symphony,saturday,offpeak,44.73,29.31,27,39,89,1008
+Green-E,70244,Northeastern University,70242,Symphony,sunday,offpeak,46.01,26.76,27,40,98.65,1009
+Green-E,70245,Museum of Fine Arts,70247,Longwood Medical Area,weekday,peak,62.96,39.69,42,54,112.35,1010
+Green-E,70245,Museum of Fine Arts,70247,Longwood Medical Area,saturday,offpeak,53.47,18.91,39,50,66,1011
+Green-E,70245,Museum of Fine Arts,70247,Longwood Medical Area,weekday,offpeak,55.51,18.5,42,54,84,1012
+Green-E,70245,Museum of Fine Arts,70247,Longwood Medical Area,sunday,offpeak,54.93,21.64,42,54,72,1013
+Green-E,70246,Museum of Fine Arts,70244,Northeastern University,saturday,offpeak,104.42,31.33,60,102,162,1014
+Green-E,70246,Museum of Fine Arts,70244,Northeastern University,sunday,offpeak,103.65,44.3,60,102,156,1015
+Green-C,70218,Saint Paul Street,70216,Kent Street,weekday,peak,25.66,16.6,18,24,36,1016
+Green-E,70207,Science Park,70209,Lechmere,saturday,offpeak,106.09,31.94,85,101,136.75,1017
+Mattapan,70268,Milton,70266,Butler,sunday,offpeak,44.21,10.91,36,42,56,1018
+Green-C,70219,Coolidge Corner,70223,Summit Avenue,saturday,offpeak,93.77,25.73,60,91,138,1019
+Green-E,70207,Science Park,70209,Lechmere,sunday,offpeak,103.93,31.01,85,101,123,1020
+Mattapan,70268,Milton,70266,Butler,weekday,offpeak,45.11,9.16,36,42,56,1021
+Green-C,70219,Coolidge Corner,70223,Summit Avenue,sunday,offpeak,88.37,23.64,55,84,132,1022
+Green-E,70207,Science Park,70209,Lechmere,weekday,offpeak,103.03,27.27,85,102,121,1023
+Mattapan,70268,Milton,70266,Butler,weekday,peak,45.1,10.48,37.8,42,56,1024
+Green-C,70219,Coolidge Corner,70223,Summit Avenue,weekday,peak,94.85,31.8,54,96,138,1025
+Green-B,70208,Science Park,70206,North Station,sunday,offpeak,142.08,7.4,131.75,142,152.8,1026
+Mattapan,70268,Milton,70266,Butler,saturday,offpeak,44.95,34.33,36,42,56,1027
+Green-C,70219,Coolidge Corner,70223,Summit Avenue,weekday,offpeak,94.07,30.66,54,96,137.25,1028
+Green-C,70220,Coolidge Corner,70218,Saint Paul Street,weekday,offpeak,64.45,23.4,42,54,108,1029
+Green-C,70220,Coolidge Corner,70218,Saint Paul Street,saturday,offpeak,75.61,28.46,42,72,127,1030
+Green-C,70220,Coolidge Corner,70218,Saint Paul Street,sunday,offpeak,74.85,34.57,42,72,120,1031
+Green-C,70220,Coolidge Corner,70218,Saint Paul Street,weekday,peak,62.48,23.64,42,54,108,1032
+Green-C,70223,Summit Avenue,70225,Brandon Hall,weekday,peak,53.68,20.52,24,54,90,1033
+Green-C,70223,Summit Avenue,70225,Brandon Hall,sunday,offpeak,58.58,28.12,24,54,108,1034
+Green-C,70223,Summit Avenue,70225,Brandon Hall,saturday,offpeak,57.33,28.16,24,54,102,1035
+Green-C,70223,Summit Avenue,70225,Brandon Hall,weekday,offpeak,58.45,28.03,24,55,96,1036
+Green-C,70224,Summit Avenue,70220,Coolidge Corner,weekday,peak,54.28,23.34,36,48,97,1037
+Green-C,70224,Summit Avenue,70220,Coolidge Corner,sunday,offpeak,66.71,24.61,37,61,108,1038
+Green-C,70224,Summit Avenue,70220,Coolidge Corner,weekday,offpeak,57.09,26.12,36,48,96,1039
+Green-C,70224,Summit Avenue,70220,Coolidge Corner,saturday,offpeak,70.26,33.13,36,65,121,1040
+Green-C,70225,Brandon Hall,70227,Fairbanks Street,weekday,peak,18.26,22.22,12,18,30,1041
+Green-C,70225,Brandon Hall,70227,Fairbanks Street,saturday,offpeak,17.31,6.19,12,18,24,1042
+Green-C,70225,Brandon Hall,70227,Fairbanks Street,weekday,offpeak,18.12,18.54,12,18,30,1043
+Green-C,70225,Brandon Hall,70227,Fairbanks Street,sunday,offpeak,17.35,5.44,12,18,24,1044
+Green-C,70226,Brandon Hall,70224,Summit Avenue,saturday,offpeak,59.2,41.72,24,54,109,1045
+Green-C,70226,Brandon Hall,70224,Summit Avenue,sunday,offpeak,59.37,30.86,24,54,109,1046
+Green-C,70226,Brandon Hall,70224,Summit Avenue,weekday,peak,54.09,25.7,24,48,96,1047
+Green-C,70226,Brandon Hall,70224,Summit Avenue,weekday,offpeak,54.48,27,24,48,97,1048
+Green-C,70227,Fairbanks Street,70229,Washington Square,weekday,offpeak,41.47,28.99,30,36,72,1049
+Green-C,70227,Fairbanks Street,70229,Washington Square,sunday,offpeak,41.06,35.78,30,36,66,1050
+Green-C,70227,Fairbanks Street,70229,Washington Square,weekday,peak,40.67,35.27,30,36,55.35,1051
+Green-C,70227,Fairbanks Street,70229,Washington Square,saturday,offpeak,40.82,17.19,30,36,72,1052
+Green-C,70228,Fairbanks Street,70226,Brandon Hall,weekday,peak,23.2,9.87,13,18,48,1053
+Green-C,70228,Fairbanks Street,70226,Brandon Hall,weekday,offpeak,21.88,7.83,12,18,36,1054
+Green-C,70228,Fairbanks Street,70226,Brandon Hall,sunday,offpeak,21.55,7.73,12,18,30,1055
+Green-C,70228,Fairbanks Street,70226,Brandon Hall,saturday,offpeak,21.02,6.7,12,18,30,1056
+Green-C,70229,Washington Square,70231,Tappan Street,saturday,offpeak,37.96,8.03,30,36,48,1057
+Green-C,70229,Washington Square,70231,Tappan Street,weekday,peak,39.47,27.22,30,36,48,1058
+Green-C,70229,Washington Square,70231,Tappan Street,weekday,offpeak,38.3,24.33,30,36,48,1059
+Green-C,70229,Washington Square,70231,Tappan Street,sunday,offpeak,37.47,9.18,30,36,48,1060
+Green-C,70230,Washington Square,70228,Fairbanks Street,sunday,offpeak,28.82,9.33,23,30,36,1061
+Green-C,70230,Washington Square,70228,Fairbanks Street,weekday,peak,28.56,6.32,23,30,36,1062
+Green-C,70230,Washington Square,70228,Fairbanks Street,weekday,offpeak,28.52,6.08,18,30,36,1063
+Green-B,70208,Science Park,70206,North Station,saturday,offpeak,140.33,9.18,130,139,151,1064
+Green-C,70208,Science Park,70206,North Station,sunday,offpeak,154.89,17.35,137.8,150,182.8,1065
+Green-C,70208,Science Park,70206,North Station,weekday,offpeak,135.61,17.64,117.35,133,166.3,1066
+Green-C,70208,Science Park,70206,North Station,saturday,offpeak,139.2,11.61,125.2,144,150.2,1067
+Mattapan,70269,Central Avenue,70271,Valley Road,weekday,offpeak,64.71,40.84,51,60,78,1068
+Green-D,70208,Science Park,70206,North Station,weekday,offpeak,150.63,14.43,130,150,172.55,1069
+Mattapan,70269,Central Avenue,70271,Valley Road,weekday,peak,66.06,41.87,54,63,80,1070
+Mattapan,70269,Central Avenue,70271,Valley Road,saturday,offpeak,60.35,21.38,54,60,67,1071
+Mattapan,70269,Central Avenue,70271,Valley Road,sunday,offpeak,61.06,25.74,54,60,72,1072
+Mattapan,70270,Central Avenue,70268,Milton,sunday,offpeak,38.96,5.4,32,40,48,1073
+Mattapan,70270,Central Avenue,70268,Milton,weekday,peak,40.32,5.38,32,40,48,1074
+Mattapan,70270,Central Avenue,70268,Milton,saturday,offpeak,38.8,4.73,32,40,48,1075
+Mattapan,70270,Central Avenue,70268,Milton,weekday,offpeak,40.8,7.25,32,40,48,1076
+Mattapan,70271,Valley Road,70273,Capen Street,weekday,peak,63.52,42.49,48,60,79,1077
+Mattapan,70271,Valley Road,70273,Capen Street,weekday,offpeak,59.46,35.51,45,56,72,1078
+Mattapan,70271,Valley Road,70273,Capen Street,sunday,offpeak,58.31,39.11,46,54,71.7,1079
+Mattapan,70271,Valley Road,70273,Capen Street,saturday,offpeak,61.76,126.21,48,55,72,1080
+Mattapan,70272,Valley Road,70270,Central Avenue,weekday,peak,60.38,7.99,51,60,72,1081
+Mattapan,70272,Valley Road,70270,Central Avenue,saturday,offpeak,59.5,14.46,48,56,72,1082
+Mattapan,70272,Valley Road,70270,Central Avenue,sunday,offpeak,59.78,14.27,48,56,78,1083
+Mattapan,70272,Valley Road,70270,Central Avenue,weekday,offpeak,61.86,16.44,51,60,78,1084
+Mattapan,70273,Capen Street,70275,Mattapan,weekday,offpeak,32.29,22.12,24,30,43,1085
+Mattapan,70273,Capen Street,70275,Mattapan,weekday,peak,32.92,23.88,23,31,48,1086
+Mattapan,70273,Capen Street,70275,Mattapan,saturday,offpeak,73.22,388.93,23,30,41,1087
+Mattapan,70273,Capen Street,70275,Mattapan,sunday,offpeak,29.82,6.32,23,30,40,1088
+Mattapan,70274,Capen Street,70272,Valley Road,weekday,peak,50.63,11.63,40,48,66,1089
+Mattapan,70274,Capen Street,70272,Valley Road,saturday,offpeak,47.55,6.08,40,48,56,1090
+Mattapan,70274,Capen Street,70272,Valley Road,weekday,offpeak,49.65,18.92,40,48,64,1091
+Mattapan,70274,Capen Street,70272,Valley Road,sunday,offpeak,47.83,7.31,40,48,58,1092
+Orange,70278,Assembly,70030,Sullivan Square,saturday,offpeak,53.11,7.82,49,51,63,1093
+Orange,70278,Assembly,70030,Sullivan Square,weekday,offpeak,52.34,6.17,48,51,59,1094
+Orange,70278,Assembly,70030,Sullivan Square,sunday,offpeak,54.01,6.36,49,52,66,1095
+Orange,70278,Assembly,70030,Sullivan Square,weekday,peak,52.7,8.97,49,52,59,1096
+Orange,70279,Assembly,70033,Wellington,weekday,offpeak,80.09,40.45,55,74,153,1097
+Orange,70279,Assembly,70033,Wellington,sunday,offpeak,70.63,13.46,55,74,84,1098
+Orange,70279,Assembly,70033,Wellington,saturday,offpeak,70.22,12.76,55,74,81,1099
+Orange,70279,Assembly,70033,Wellington,weekday,peak,75.14,36.65,55,73,118,1100
+Green-E,70208,Science Park,70206,North Station,weekday,peak,143.21,27.56,120,139,174,1101
+Green-E,70208,Science Park,70206,North Station,sunday,offpeak,141.26,28.49,120,137,170,1102
+Green-E,70208,Science Park,70206,North Station,saturday,offpeak,139.59,22.03,119,137,166,1103
+Green-E,70208,Science Park,70206,North Station,weekday,offpeak,142.6,57.84,119,138,171.75,1104
+Green-B,70210,Lechmere,70208,Science Park,sunday,offpeak,103.92,13.42,89.55,103,126.6,1105
+Green-B,70210,Lechmere,70208,Science Park,saturday,offpeak,106.83,26.8,85,100.5,145.5,1106
+Green-C,70210,Lechmere,70208,Science Park,weekday,offpeak,106.52,46.96,66,99,154,1107
+Green-C,70210,Lechmere,70208,Science Park,saturday,offpeak,104.56,9.58,95.4,101,119.6,1108
+Green-C,70210,Lechmere,70208,Science Park,sunday,offpeak,102.67,12.89,91,99.5,121.25,1109
+Green-D,70210,Lechmere,70208,Science Park,weekday,offpeak,105.29,13.76,89.85,103,127.3,1110
+Green-E,70210,Lechmere,70208,Science Park,sunday,offpeak,94.38,12.02,81,93,110.85,1111
+Green-E,70210,Lechmere,70208,Science Park,weekday,offpeak,97.19,20.85,81,95,117,1112
+Green-E,70210,Lechmere,70208,Science Park,weekday,peak,97.75,24.9,80,94,119,1113
+Green-E,70210,Lechmere,70208,Science Park,saturday,offpeak,95.52,15.1,81,94,113,1114
+Green-C,70211,Saint Marys Street,70213,Hawes Street,sunday,offpeak,66.19,45.44,37,61,96,1115
+Green-C,70211,Saint Marys Street,70213,Hawes Street,weekday,offpeak,67.44,46.41,36,60,108,1116
+Green-C,70211,Saint Marys Street,70213,Hawes Street,saturday,offpeak,74.65,194.68,36,60,102,1117
+Green-C,70211,Saint Marys Street,70213,Hawes Street,weekday,peak,71.1,47.81,39,66,114,1118
+Green-C,70212,Saint Marys Street,70150,Kenmore,saturday,offpeak,162.1,81.58,129,156,204,1119
+Green-C,70212,Saint Marys Street,70150,Kenmore,sunday,offpeak,160.1,32.6,129.05,155,207,1120
+Green-C,70212,Saint Marys Street,70150,Kenmore,weekday,offpeak,164.85,34.69,130,158,223,1121
+Green-C,70212,Saint Marys Street,70150,Kenmore,weekday,peak,170.07,41.9,135,160,232.15,1122
+Green-C,70213,Hawes Street,70215,Kent Street,weekday,offpeak,20.7,20.94,12,18,30,1123
+Green-C,70213,Hawes Street,70215,Kent Street,sunday,offpeak,20.08,14.7,12,18,30,1124
+Green-C,70213,Hawes Street,70215,Kent Street,weekday,peak,20.54,18.83,12,18,30,1125
+Green-C,70213,Hawes Street,70215,Kent Street,saturday,offpeak,19.43,7.74,12,18,30,1126
+Green-C,70214,Hawes Street,70212,Saint Marys Street,sunday,offpeak,55.35,17.16,36,54,84,1127
+Green-C,70214,Hawes Street,70212,Saint Marys Street,saturday,offpeak,55.46,17.03,36,54,85,1128
+Green-C,70214,Hawes Street,70212,Saint Marys Street,weekday,offpeak,52.4,14.77,36,48,78,1129
+Green-C,70214,Hawes Street,70212,Saint Marys Street,weekday,peak,52.42,14.28,36,52,72,1130

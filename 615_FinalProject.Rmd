@@ -1,8 +1,10 @@
 ---
-title: "615_FinalProject"
+title: "615_FinalProject_EDA"
 author: "Kai"
 date: "2022-12-12"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -33,9 +35,17 @@ Travel_Times_Fall_2019 <- read_csv("Average_Rapid_Transit_Travel_Times_Fall_2019
 
 ```
 
+# Introduction
+
+The MBTA or the 'T' is one thing that we are most familiar with, and this EDA analysis is based on the MBTA data. The data I have used for this EDA report is from MTBA website:  https://mbta-massdot.opendata.arcgis.com/search, the data file is called Average_Rapid_Transit_Travel_Times_Fall_2019.csv. I have made three EDA analysis, covered three aspects of the Boston transit. First is the number of routes that is provided since 1901, and the second is the total number of trips been provided, last one is the travel time during the week. Now let me show you some interesting analysis about Boston transit system. 
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE,fig.height=3,fig.width=4.5, fig.cap= "Number of routes for each line"}
+
+
+## EDA Analysis --- Routes
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE,fig.height=6,fig.width=4, fig.cap= "Number of routes for each line"}
 new <- route_pattern %>% group_by(route_id) %>% summarise(total_count = n())
 
 new2 <- filter(new, route_id %in% c("Red", "Orange", "Green-B", "Green-C", "Green-D", "Green-E"))
@@ -57,14 +67,18 @@ radarchart( wider2  , axistype=1 ,
     vlcex=0.8,title=paste("Number of Routes for each line"),)
 
 ```
-This plot shows the number of routes for each line. We can find the red line has the most routes. 
 
 
+This plot shows the number of routes provided for each line. We can find the red line has the most routes which is 14. And after that are the Green-B, Green-C, and Green-D line with a tie of 6 routes. The least is Green-E with only 4 routes. The green line is the oldest subway line in Boston, so that is why there are so many green line branchs around Boston, and add together the green line has 22 routes. 
 
 
+\newpage
 
-# Top 10 lines with most number of trips
-```{r echo=FALSE, message=FALSE, warning=FALSE,fig.height=3,fig.width=4.5, fig.cap= "Top 10 lines with the most number of trips"}
+
+## EDA Analysis --- Trips
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE,fig.cap= "Top 10 lines with the most number of trips"}
 
 # Create dataset
 trip_count <- trips %>% group_by(route_id) %>% summarise(total_count = n())
@@ -118,12 +132,15 @@ p <- ggplot(total_trips, aes(x=as.factor(id), y=total_count)) +       # Note tha
 p
 ```
 
-This figure shows the top 10 lines with the most number of trips, and red line again has the most number of trips. 
+This figure shows the top 10 lines with the most number of trips, and this kind of followed the trend on the route graph which makes sense, the red line again has the most number of trips then it followed by green lines. Those numbers represent bus lines, and among those bus lines 111 has the highest number of trips. From this graph we could see a clear comparison between bus and subways, still subway is the major public transportation is Boston.
 
 
+\newpage
 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE,fig.height=3,fig.width=4.5, fig.cap= "Routes Travel Time VS. Day Type"}
+## EDA Analysis --- Travel Time
+
+```{r echo=FALSE, message=FALSE, warning=FALSE,fig.cap= "Routes Travel Time VS. Day Type"}
 library(ggplot2)
 
 ggplot(Travel_Times_Fall_2019) +
@@ -135,6 +152,6 @@ ggplot(Travel_Times_Fall_2019) +
 
 ```
 
-From this graph we can clearly see that all the routes travels longer during weekdays compare to weekend. And the comparison shows that the total travel time during day time is the sum of weekend's travel time. 
+From this graph we can clearly see that all the routes travels longer during weekdays compare to weekend. And the comparison shows that the total travel time during weekday is the sum of weekend's travel time, which makes perfect sense. During weekday, people who needs to go to school or go to work all need to take subway, and that workload itself is much higher than during weekend, the time of people getting off and getting on add up to that long travel time. 
 
 
